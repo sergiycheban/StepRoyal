@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RU</title>
+    <meta name="description" content="RU description" />
+
+    <link rel="canonical" href="https://your-domain.com/ru/" />
+    <link rel="alternate" hreflang="ru" href="https://your-domain.com/ru/" />
+    <link rel="alternate" hreflang="uk" href="https://your-domain.com/ua/" />
+    <link rel="alternate" hreflang="x-default" href="https://your-domain.com/ru/" />
+
+    <link rel="icon" type="image/svg+xml" href="../assets/images/logo.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <link href="../assets/vendors/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="../assets/vendors/bootstrap-icons/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="../assets/vendors/glightbox/glightbox.min.css" rel="stylesheet" />
+    <link href="../assets/vendors/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="../assets/vendors/aos/aos.css" rel="stylesheet" />
+    <link href="../assets/css/style.css" rel="stylesheet" />
+
+    <script>
+        (function () {
+            const storedTheme = localStorage.getItem("theme") || "dark";
+            document.documentElement.setAttribute("data-bs-theme", storedTheme);
+        })();
+    </script>
+
+    <style>
+        .lang-switch {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-left: 12px;
+            margin-right: 12px;
+        }
+
+        .lang-switch a {
+            text-decoration: none;
+            font-weight: 600;
+            opacity: 0.75;
+        }
+
+        .lang-switch a.active {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="site-wrap">
+        <header class="fbs__net-navbar navbar navbar-expand-lg dark" aria-label="Site navigation">
+            <div class="container d-flex align-items-center justify-content-between">
+                <a class="navbar-brand w-auto" href="../ru/">
+                    <img class="logo dark img-fluid logo" src="../assets/images/logo.png" alt="Logo" />
+                    <img class="logo light img-fluid logo" src="../assets/images/logo.png" alt="Logo" />
+                </a>
+
+                <div class="offcanvas offcanvas-start w-75" id="fbs__net-navbars" tabindex="-1"
+                    aria-labelledby="fbs__net-navbarsLabel">
+                    <div class="offcanvas-header">
+                        <div class="offcanvas-header-logo">
+                            <a class="logo-link" id="fbs__net-navbarsLabel" href="../ru/">
+                                <img class="logo dark img-fluid logo" src="../assets/images/logo.png" alt="Logo" />
+                                <img class="logo light img-fluid logo" src="../assets/images/logo.png" alt="Logo" />
+                            </a>
+                        </div>
+                        <button class="btn-close btn-close-black" type="button" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+
+                    <div class="offcanvas-body align-items-lg-center">
+                        <ul class="navbar-nav nav me-auto ps-lg-5 mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link scroll-link active" href="#home"
+                                    data-i18n="nav.home"></a></li>
+                            <li class="nav-item"><a class="nav-link scroll-link" href="#about"
+                                    data-i18n="nav.about"></a></li>
+                            <li class="nav-item"><a class="nav-link scroll-link" href="#pricing"
+                                    data-i18n="nav.pricing"></a></li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-bs-toggle="modal"
+                                    data-bs-target="#transferCalculatorModal" data-i18n="nav.calculator"></a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link scroll-link" href="#how-it-works"
+                                    data-i18n="nav.howItWorks"></a></li>
+                            <li class="nav-item"><a class="nav-link scroll-link" href="#faq" data-i18n="nav.faq"></a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link scroll-link" href="#contact"
+                                    data-i18n="nav.contact"></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="ms-auto w-auto">
+                    <div class="header-social d-flex align-items-center gap-1">
+                        <a class="btn btn-primary py-2" href="#contact" data-i18n="nav.cta"></a>
+
+                        <div class="lang-switch">
+                            <a href="../ru/" class="active">RU</a>
+                            <a href="../ua/">UA</a>
+                        </div>
+
+                        <button class="fbs__net-navbar-toggler justify-content-center align-items-center ms-auto"
+                            data-bs-toggle="offcanvas" data-bs-target="#fbs__net-navbars"
+                            aria-controls="fbs__net-navbars" aria-label="Toggle navigation" aria-expanded="false">
+                            <svg class="fbs__net-icon-menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="21" x2="3" y1="6" y2="6"></line>
+                                <line x1="15" x2="3" y1="12" y2="12"></line>
+                                <line x1="17" x2="3" y1="18" y2="18"></line>
+                            </svg>
+                            <svg class="fbs__net-icon-close" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 6 6 18"></path>
+                                <path d="m6 6 12 12"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero__v6 section" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 mb-4 mb-lg-0">
+                            <div class="row">
+                                <div class="col-lg-11">
+                                    <span class="hero-subtitle text-uppercase" data-aos="fade-up" data-aos-delay="0"
+                                        data-i18n="hero.subtitle"></span>
+                                    <h1 class="hero-title mb-3" data-aos="fade-up" data-aos-delay="100"
+                                        data-i18n="hero.title"></h1>
+                                    <p class="hero-description mb-4 mb-lg-5" data-aos="fade-up" data-aos-delay="200"
+                                        data-i18n="hero.description"></p>
+                                    <div class="cta d-flex gap-2 mb-4 mb-lg-5" data-aos="fade-up" data-aos-delay="300">
+                                        <a class="btn" href="#contact" data-i18n="hero.cta"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="hero-img">
+                                <img class="img-main img-fluid rounded-4" src="../assets/images/hero-img-1-min.jpg"
+                                    alt="Hero Image" data-aos="fade-in" data-aos-delay="500" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about__v4 section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 order-md-2">
+                            <div class="row justify-content-end">
+                                <div class="col-md-11 mb-4 mb-md-0">
+                                    <span class="subtitle text-uppercase mb-3" data-aos="fade-up" data-aos-delay="0"
+                                        data-i18n="about.badge"></span>
+                                    <h2 class="mb-4" data-aos="fade-up" data-aos-delay="100" data-i18n="about.title">
+                                    </h2>
+                                    <div data-aos="fade-up" data-aos-delay="200">
+                                        <p data-i18n="about.text1"></p>
+                                        <p data-i18n="about.text2"></p>
+                                    </div>
+                                    <h4 class="small fw-bold mt-4 mb-3" data-aos="fade-up" data-aos-delay="300"
+                                        data-i18n="about.benefitsTitle"></h4>
+                                    <ul class="d-flex flex-row flex-wrap list-unstyled gap-3 features"
+                                        data-aos="fade-up" data-aos-delay="400">
+                                        <li class="d-flex align-items-center gap-2">
+                                            <span class="icon rounded-circle text-center"><i
+                                                    class="bi bi-check"></i></span>
+                                            <span class="text" data-i18n="about.benefits.0"></span>
+                                        </li>
+                                        <li class="d-flex align-items-center gap-2">
+                                            <span class="icon rounded-circle text-center"><i
+                                                    class="bi bi-check"></i></span>
+                                            <span class="text" data-i18n="about.benefits.1"></span>
+                                        </li>
+                                        <li class="d-flex align-items-center gap-2">
+                                            <span class="icon rounded-circle text-center"><i
+                                                    class="bi bi-check"></i></span>
+                                            <span class="text" data-i18n="about.benefits.2"></span>
+                                        </li>
+                                        <li class="d-flex align-items-center gap-2">
+                                            <span class="icon rounded-circle text-center"><i
+                                                    class="bi bi-check"></i></span>
+                                            <span class="text" data-i18n="about.benefits.3"></span>
+                                        </li>
+                                        <li class="d-flex align-items-center gap-2">
+                                            <span class="icon rounded-circle text-center"><i
+                                                    class="bi bi-check"></i></span>
+                                            <span class="text" data-i18n="about.benefits.4"></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="img-wrap position-relative">
+                                <img class="img-fluid rounded-4" src="../assets/images/about.jpg" alt="About image"
+                                    data-aos="fade-up" data-aos-delay="0" />
+                                <div class="mission-statement p-4 rounded-4 d-flex gap-4" data-aos="fade-up"
+                                    data-aos-delay="100">
+                                    <div class="mission-icon text-center rounded-circle">
+                                        <i class="bi bi-lightbulb fs-4"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-uppercase fw-bold" data-i18n="about.missionTitle"></h3>
+                                        <p class="fs-5 mb-0" data-i18n="about.missionText"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section features__v2" id="features">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="d-lg-flex p-5 rounded-4 content" data-aos="fade-in" data-aos-delay="0">
+                                <div class="row">
+                                    <div class="col-lg-5 mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="0">
+                                        <div class="row">
+                                            <div class="col-lg-11">
+                                                <div class="h-100 flex-column justify-content-between d-flex">
+                                                    <div>
+                                                        <h2 class="mb-4" data-i18n="features.title"></h2>
+                                                        <p class="mb-5" data-i18n="features.description"></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <div class="row justify-content-end">
+                                            <div class="col-lg-11">
+                                                <div class="row">
+                                                    <div class="col-sm-6" data-aos="fade-up" data-aos-delay="0">
+                                                        <div class="icon text-center mb-4"><i
+                                                                class="bi bi-cash-stack fs-4"></i></div>
+                                                        <h3 class="fs-6 fw-bold mb-3"
+                                                            data-i18n="features.items.0.title"></h3>
+                                                        <p data-i18n="features.items.0.text"></p>
+                                                    </div>
+                                                    <div class="col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                                                        <div class="icon text-center mb-4"><i
+                                                                class="bi bi-graph-up-arrow fs-4"></i></div>
+                                                        <h3 class="fs-6 fw-bold mb-3"
+                                                            data-i18n="features.items.1.title"></h3>
+                                                        <p data-i18n="features.items.1.text"></p>
+                                                    </div>
+                                                    <div class="col-sm-6" data-aos="fade-up" data-aos-delay="200">
+                                                        <div class="icon text-center mb-4"><i
+                                                                class="bi bi-award fs-4"></i></div>
+                                                        <h3 class="fs-6 fw-bold mb-3"
+                                                            data-i18n="features.items.2.title"></h3>
+                                                        <p data-i18n="features.items.2.text"></p>
+                                                    </div>
+                                                    <div class="col-sm-6" data-aos="fade-up" data-aos-delay="300">
+                                                        <div class="icon text-center mb-4"><i
+                                                                class="bi bi-lightning-charge fs-4"></i></div>
+                                                        <h3 class="fs-6 fw-bold mb-3"
+                                                            data-i18n="features.items.3.title"></h3>
+                                                        <p data-i18n="features.items.3.text"></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section pricing__v2" id="pricing">
+                <div class="container">
+                    <div class="row mb-5">
+                        <div class="col-md-5 mx-auto text-center">
+                            <span class="subtitle text-uppercase mb-3" data-aos="fade-up" data-aos-delay="0"
+                                data-i18n="pricing.badge"></span>
+                            <h2 class="mb-3" data-aos="fade-up" data-aos-delay="100" data-i18n="pricing.title"></h2>
+                            <p data-aos="fade-up" data-aos-delay="200" data-i18n="pricing.description"></p>
+                        </div>
+                    </div>
+
+                    <div class="row g-4">
+                        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                            <div class="p-5 rounded-4 price-table h-100">
+                                <h3 data-i18n="pricing.plan1.title"></h3>
+                                <p data-i18n="pricing.plan1.text"></p>
+
+                                <div class="price mb-4">
+                                    <div id="pricing-plan1-prices" class="pricing-multi-price"></div>
+                                </div>
+
+                                <div>
+                                    <a class="btn" href="#" data-bs-toggle="modal"
+                                        data-bs-target="#transferCalculatorModal" data-i18n="pricing.plan1.cta"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                            <div class="p-5 rounded-4 price-table h-100">
+                                <h3 data-i18n="pricing.plan2.title"></h3>
+                                <p data-i18n="pricing.plan2.text"></p>
+
+                                <div class="price mb-4">
+                                    <div id="pricing-plan2-prices" class="pricing-multi-price"></div>
+                                </div>
+
+                                <div>
+                                    <a class="btn" href="#" data-bs-toggle="modal"
+                                        data-bs-target="#transferCalculatorModal" data-i18n="pricing.plan2.cta"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
+                            <div class="p-5 rounded-4 price-table popular h-100">
+                                <h3 class="mb-3" data-i18n="pricing.plan3.title"></h3>
+                                <p data-i18n="pricing.plan3.text"></p>
+
+                                <div class="price mb-4">
+                                    <div id="pricing-plan3-prices" class="pricing-multi-price"></div>
+                                </div>
+
+                                <div class="mb-4">
+                                    <a class="btn btn-white hover-outline" href="#" data-bs-toggle="modal"
+                                        data-bs-target="#transferCalculatorModal" data-i18n="pricing.plan3.cta"></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="section howitworks__v1" id="how-it-works">
+                <div class="container">
+                    <div class="row mb-5">
+                        <div class="col-md-6 text-center mx-auto">
+                            <span class="subtitle text-uppercase mb-3" data-aos="fade-up" data-aos-delay="0"
+                                data-i18n="howItWorks.badge"></span>
+                            <h2 data-aos="fade-up" data-aos-delay="100" data-i18n="howItWorks.title"></h2>
+                            <p data-aos="fade-up" data-aos-delay="200" data-i18n="howItWorks.description"></p>
+                        </div>
+                    </div>
+                    <div class="row g-md-5">
+                        <div class="col-md-6 col-lg-3">
+                            <div class="step-card text-center h-100 d-flex flex-column justify-content-start position-relative"
+                                data-aos="fade-up" data-aos-delay="0">
+                                <div data-aos="fade-right" data-aos-delay="500">
+                                    <img class="arch-line" src="../assets/images/arch-line.svg" alt="Step line" />
+                                </div>
+                                <span class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">1</span>
+                                <div>
+                                    <h3 class="fs-5 mb-4" data-i18n="howItWorks.steps.0.title"></h3>
+                                    <p data-i18n="howItWorks.steps.0.text"></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="600">
+                            <div
+                                class="step-card reverse text-center h-100 d-flex flex-column justify-content-start position-relative">
+                                <div data-aos="fade-right" data-aos-delay="1100">
+                                    <img class="arch-line reverse" src="../assets/images/arch-line-reverse.svg"
+                                        alt="Step line" />
+                                </div>
+                                <span class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">2</span>
+                                <h3 class="fs-5 mb-4" data-i18n="howItWorks.steps.1.title"></h3>
+                                <p data-i18n="howItWorks.steps.1.text"></p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="1200">
+                            <div
+                                class="step-card text-center h-100 d-flex flex-column justify-content-start position-relative">
+                                <div data-aos="fade-right" data-aos-delay="1700">
+                                    <img class="arch-line" src="../assets/images/arch-line.svg" alt="Step line" />
+                                </div>
+                                <span class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">3</span>
+                                <h3 class="fs-5 mb-4" data-i18n="howItWorks.steps.2.title"></h3>
+                                <p data-i18n="howItWorks.steps.2.text"></p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="1800">
+                            <div
+                                class="step-card last text-center h-100 d-flex flex-column justify-content-start position-relative">
+                                <span class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">4</span>
+                                <div>
+                                    <h3 class="fs-5 mb-4" data-i18n="howItWorks.steps.3.title"></h3>
+                                    <p data-i18n="howItWorks.steps.3.text"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="stats__v3 section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="d-flex flex-wrap content rounded-4" data-aos="fade-up" data-aos-delay="0">
+                                <div class="rounded-borders">
+                                    <div class="rounded-border-1"></div>
+                                    <div class="rounded-border-2"></div>
+                                    <div class="rounded-border-3"></div>
+                                </div>
+
+                                <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0 text-center" data-aos="fade-up"
+                                    data-aos-delay="100">
+                                    <div class="stat-item">
+                                        <h3 class="fs-1 fw-bold"><span data-i18n="stats.items.0.value"></span></h3>
+                                        <p class="mb-0" data-i18n="stats.items.0.title"></p>
+                                        <small class="text-opacity-75 d-block" data-i18n="stats.items.0.text"></small>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0 text-center" data-aos="fade-up"
+                                    data-aos-delay="200">
+                                    <div class="stat-item">
+                                        <h3 class="fs-1 fw-bold"><span data-i18n="stats.items.1.value"></span></h3>
+                                        <p class="mb-0" data-i18n="stats.items.1.title"></p>
+                                        <small class="text-opacity-75 d-block" data-i18n="stats.items.1.text"></small>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0 text-center" data-aos="fade-up"
+                                    data-aos-delay="300">
+                                    <div class="stat-item">
+                                        <h3 class="fs-1 fw-bold"><span data-i18n="stats.items.2.value"></span></h3>
+                                        <p class="mb-0" data-i18n="stats.items.2.title"></p>
+                                        <small class="text-opacity-75 d-block" data-i18n="stats.items.2.text"></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section services__v3" id="services">
+                <div class="container">
+                    <div class="row mb-5">
+                        <div class="col-md-8 mx-auto text-center">
+                            <span class="subtitle text-uppercase mb-3" data-aos="fade-up" data-aos-delay="0"
+                                data-i18n="services.badge"></span>
+                            <h2 class="mb-3" data-aos="fade-up" data-aos-delay="100" data-i18n="services.title"></h2>
+                        </div>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                            <div
+                                class="service-card p-4 rounded-4 h-100 d-flex flex-column justify-content-between gap-5">
+                                <div>
+                                    <span class="icon mb-4"><img src="../assets/images/icons/brand-image.png"
+                                            alt="Service icon" loading="lazy" decoding="async" /></span>
+                                    <h3 class="fs-5 mb-3" data-i18n="services.items.0.title"></h3>
+                                    <p class="mb-4" data-i18n="services.items.0.text"></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                            <div
+                                class="service-card p-4 rounded-4 h-100 d-flex flex-column justify-content-between gap-5">
+                                <div>
+                                    <span class="icon mb-4"><img src="../assets/images/icons/qr-code.png"
+                                            alt="Service icon" loading="lazy" decoding="async" /></span>
+                                    <h3 class="fs-5 mb-3" data-i18n="services.items.1.title"></h3>
+                                    <p class="mb-4" data-i18n="services.items.1.text"></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                            <div
+                                class="service-card p-4 rounded-4 h-100 d-flex flex-column justify-content-between gap-5">
+                                <div>
+                                    <span class="icon mb-4"><img src="../assets/images/icons/contact-form.png"
+                                            alt="Service icon" loading="lazy" decoding="async" /></span>
+                                    <h3 class="fs-5 mb-3" data-i18n="services.items.2.title"></h3>
+                                    <p class="mb-4" data-i18n="services.items.2.text"></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                            <div
+                                class="service-card p-4 rounded-4 h-100 d-flex flex-column justify-content-between gap-5">
+                                <div>
+                                    <span class="icon mb-4"><img src="../assets/images/icons/protection.png"
+                                            alt="Service icon" loading="lazy" decoding="async" /></span>
+                                    <h3 class="fs-5 mb-3" data-i18n="services.items.3.title"></h3>
+                                    <p class="mb-4" data-i18n="services.items.3.text"></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+                            <div
+                                class="service-card p-4 rounded-4 h-100 d-flex flex-column justify-content-between gap-5">
+                                <div>
+                                    <span class="icon mb-4"><img src="../assets/images/icons/save-money.png"
+                                            alt="Service icon" loading="lazy" decoding="async" /></span>
+                                    <h3 class="fs-5 mb-3" data-i18n="services.items.4.title"></h3>
+                                    <p class="mb-4" data-i18n="services.items.4.text"></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
+                            <div
+                                class="service-card p-4 rounded-4 h-100 d-flex flex-column justify-content-between gap-5">
+                                <div>
+                                    <span class="icon mb-4"><img src="../assets/images/icons/dashboard.png"
+                                            alt="Service icon" loading="lazy" decoding="async" /></span>
+                                    <h3 class="fs-5 mb-3" data-i18n="services.items.5.title"></h3>
+                                    <p class="mb-4" data-i18n="services.items.5.text"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section faq__v2" id="faq">
+                <div class="container">
+                    <div class="row mb-4">
+                        <div class="col-md-6 col-lg-7 mx-auto text-center">
+                            <span class="subtitle text-uppercase mb-3" data-aos="fade-up" data-aos-delay="0"
+                                data-i18n="faq.badge"></span>
+                            <h2 class="h2 fw-bold mb-3" data-aos="fade-up" data-aos-delay="0" data-i18n="faq.title">
+                            </h2>
+                            <p data-aos="fade-up" data-aos-delay="100" data-i18n="faq.description"></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 mx-auto" data-aos="fade-up" data-aos-delay="200">
+                            <div class="faq-content">
+                                <div class="accordion custom-accordion" id="accordionPanelsStayOpenExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                                aria-controls="panelsStayOpen-collapseOne"
+                                                data-i18n="faq.items.0.question"></button>
+                                        </h2>
+                                        <div class="accordion-collapse collapse show" id="panelsStayOpen-collapseOne">
+                                            <div class="accordion-body" data-i18n="faq.items.0.answer"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
+                                                aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo"
+                                                data-i18n="faq.items.1.question"></button>
+                                        </h2>
+                                        <div class="accordion-collapse collapse" id="panelsStayOpen-collapseTwo">
+                                            <div class="accordion-body" data-i18n="faq.items.1.answer"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
+                                                aria-expanded="false" aria-controls="panelsStayOpen-collapseThree"
+                                                data-i18n="faq.items.2.question"></button>
+                                        </h2>
+                                        <div class="accordion-collapse collapse" id="panelsStayOpen-collapseThree">
+                                            <div class="accordion-body" data-i18n="faq.items.2.answer"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour"
+                                                aria-expanded="false" aria-controls="panelsStayOpen-collapseFour"
+                                                data-i18n="faq.items.3.question"></button>
+                                        </h2>
+                                        <div class="accordion-collapse collapse" id="panelsStayOpen-collapseFour">
+                                            <div class="accordion-body" data-i18n="faq.items.3.answer"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section contact__v2" id="contact">
+                <div class="container">
+                    <div class="row mb-5">
+                        <div class="col-md-7 col-lg-7 mx-auto text-center">
+                            <span class="subtitle text-uppercase mb-3" data-aos="fade-up" data-aos-delay="0"
+                                data-i18n="contact.badge"></span>
+                            <h2 class="h2 fw-bold mb-3" data-aos="fade-up" data-aos-delay="0" data-i18n="contact.title">
+                            </h2>
+                            <p data-aos="fade-up" data-aos-delay="100" data-i18n="contact.description"></p>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-xl-11">
+                            <div class="contact-links-wrapper p-4 p-md-5 rounded-4" data-aos="fade-up"
+                                data-aos-delay="200">
+                                <div class="row g-4">
+
+                                    <div class="col-md-6 col-lg-4">
+                                        <div class="contact-card h-100 p-4 rounded-4">
+                                            <div class="contact-card-icon mb-3">
+                                                <img src="../assets/images/icons/phone.png" alt="Phone icon" />
+                                            </div>
+
+                                            <h3 class="fs-5 mb-4" data-i18n="contact.cards.phonesTitle"></h3>
+
+                                            <div class="d-flex flex-column gap-3">
+                                                <a class="contact-link-item" data-i18n-attr="href:contact.phone1Href"
+                                                    data-i18n="contact.phone1Label"></a>
+
+                                                <a class="contact-link-item" data-i18n-attr="href:contact.phone2Href"
+                                                    data-i18n="contact.phone2Label"></a>
+
+                                                <a class="contact-link-item" data-i18n-attr="href:contact.phone3Href"
+                                                    data-i18n="contact.phone3Label"></a>
+
+                                                <a class="contact-link-item" data-i18n-attr="href:contact.phone4Href"
+                                                    data-i18n="contact.phone4Label"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-lg-4">
+                                        <div class="contact-card h-100 p-4 rounded-4">
+                                            <div class="contact-card-icon mb-3">
+                                                <img src="../assets/images/icons/email.png" alt="Email icon" />
+                                            </div>
+
+                                            <h3 class="fs-5 mb-4" data-i18n="contact.cards.emailTitle"></h3>
+
+                                            <div class="d-flex flex-column gap-3">
+                                                <a class="contact-link-item" data-i18n-attr="href:contact.emailHref"
+                                                    data-i18n="contact.emailLabel"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 col-lg-4">
+                                        <div class="contact-card h-100 p-4 rounded-4">
+                                            <div class="contact-card-icon mb-3">
+                                                <img src="../assets/images/icons/social.png" alt="Social icon" />
+                                            </div>
+
+                                            <h3 class="fs-5 mb-4" data-i18n="contact.cards.socialsTitle"></h3>
+
+                                            <div class="d-flex flex-column gap-3">
+                                                <a class="contact-link-item contact-social-item"
+                                                    data-i18n-attr="href:contact.socials.telegramHref; target:contact.socials.target; rel:contact.socials.rel">
+                                                    <span class="contact-social-icon">
+                                                        <img src="../assets/images/icons/telegram.png"
+                                                            alt="Telegram icon" />
+                                                    </span>
+                                                    <span data-i18n="contact.socials.telegramLabel"></span>
+                                                </a>
+
+                                                <a class="contact-link-item contact-social-item"
+                                                    data-i18n-attr="href:contact.socials.viberHref; target:contact.socials.target; rel:contact.socials.rel">
+                                                    <span class="contact-social-icon">
+                                                        <img src="../assets/images/icons/viber.png" alt="Viber icon" />
+                                                    </span>
+                                                    <span data-i18n="contact.socials.viberLabel"></span>
+                                                </a>
+
+                                                <a class="contact-link-item contact-social-item"
+                                                    data-i18n-attr="href:contact.socials.whatsappHref; target:contact.socials.target; rel:contact.socials.rel">
+                                                    <span class="contact-social-icon">
+                                                        <img src="../assets/images/icons/whatsapp.png"
+                                                            alt="WhatsApp icon" />
+                                                    </span>
+                                                    <span data-i18n="contact.socials.whatsappLabel"></span>
+                                                </a>
+
+                                                <a class="contact-link-item contact-social-item"
+                                                    data-i18n-attr="href:contact.socials.instagramHref; target:contact.socials.target; rel:contact.socials.rel">
+                                                    <span class="contact-social-icon">
+                                                        <img src="../assets/images/icons/instagram.png"
+                                                            alt="Instagram icon" />
+                                                    </span>
+                                                    <span data-i18n="contact.socials.instagramLabel"></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer pt-5 pb-5">
+                <div class="container">
+                    <div class="row justify-content-between mb-5 g-4 g-xl-5">
+
+                        <div class="col-md-5 col-lg-4">
+                            <h3 class="mb-3" data-i18n="footer.aboutTitle"></h3>
+                            <p class="mb-4" data-i18n="footer.aboutText"></p>
+                        </div>
+
+                        <div class="col-md-7 col-lg-8">
+                            <div class="row g-4">
+
+                                <div class="col-md-6 col-lg-4">
+                                    <h3 class="mb-3" data-i18n="footer.contactTitle"></h3>
+
+                                    <div class="d-flex flex-column gap-2 quick-contact">
+                                        <a class="d-flex align-items-center gap-2" data-i18n="footer.phone1Label"
+                                            data-i18n-attr="href:footer.phone1Href"></a>
+
+                                        <a class="d-flex align-items-center gap-2" data-i18n="footer.phone2Label"
+                                            data-i18n-attr="href:footer.phone2Href"></a>
+
+                                        <a class="d-flex align-items-center gap-2" data-i18n="footer.phone3Label"
+                                            data-i18n-attr="href:footer.phone3Href"></a>
+
+                                        <a class="d-flex align-items-center gap-2" data-i18n="footer.phone4Label"
+                                            data-i18n-attr="href:footer.phone4Href"></a>
+
+                                        <a class="d-flex align-items-center gap-2" data-i18n="footer.emailLabel"
+                                            data-i18n-attr="href:footer.emailHref"></a>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 col-lg-4">
+                                    <h3 class="mb-3" data-i18n="footer.socialsTitle"></h3>
+
+                                    <div class="d-flex flex-column gap-2 quick-contact">
+                                        <a class="d-flex align-items-center gap-2" data-i18n="footer.telegramLabel"
+                                            data-i18n-attr="href:footer.telegramHref; target:footer.target; rel:footer.rel"></a>
+
+                                        <a class="d-flex align-items-center gap-2" data-i18n="footer.viberLabel"
+                                            data-i18n-attr="href:footer.viberHref; target:footer.target; rel:footer.rel"></a>
+
+                                        <a class="d-flex align-items-center gap-2" data-i18n="footer.whatsappLabel"
+                                            data-i18n-attr="href:footer.whatsappHref; target:footer.target; rel:footer.rel"></a>
+
+                                        <a class="d-flex align-items-center gap-2" data-i18n="footer.instagramLabel"
+                                            data-i18n-attr="href:footer.instagramHref; target:footer.target; rel:footer.rel"></a>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12 col-lg-4">
+                                    <h3 class="mb-3" data-i18n="footer.infoTitle"></h3>
+
+                                    <div class="d-flex flex-column gap-2 quick-contact">
+                                        <span data-i18n="footer.workingHours"></span>
+                                        <span data-i18n="footer.availability"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row credits pt-3">
+                        <div class="col-xl-8 text-center text-xl-start mb-3 mb-xl-0">
+                            &copy;
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script>
+                            <span data-i18n="footer.copyright"></span>
+                        </div>
+
+                        <div
+                            class="col-xl-4 justify-content-start justify-content-xl-end quick-links d-flex flex-column flex-xl-row text-center text-xl-start gap-1">
+                            <span data-i18n="footer.poweredBy"></span>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </div>
+
+    <button id="back-to-top"><i class="bi bi-arrow-up-short"></i></button>
+
+    <script src="../assets/data/ru.js"></script>
+    <script src="../assets/js/i18n.js"></script>
+    <script src="../assets/data/calculator-config.js"></script>
+    <script src="../assets/js/calculator.js"></script>
+    <script src="../assets/js/pricing.js"></script>
+
+    <script src="../assets/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="../assets/vendors/gsap/gsap.min.js"></script>
+    <script src="../assets/vendors/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="../assets/vendors/isotope/isotope.pkgd.min.js"></script>
+    <script src="../assets/vendors/glightbox/glightbox.min.js"></script>
+    <script src="../assets/vendors/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendors/aos/aos.js"></script>
+    <script src="../assets/vendors/purecounter/purecounter.js"></script>
+    <script src="../assets/js/custom.js"></script>
+
+
+
+
+    <div class="modal fade" id="transferCalculatorModal" tabindex="-1" aria-labelledby="transferCalculatorModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content calculator-modal-content">
+                <div class="modal-header border-0">
+                    <div>
+                        <span class="subtitle text-uppercase mb-2 d-block" data-i18n="calculator.badge"></span>
+                        <h2 class="h3 mb-0" id="transferCalculatorModalLabel" data-i18n="calculator.title"></h2>
+                    </div>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body pt-0">
+                    <p class="mb-4" data-i18n="calculator.description"></p>
+
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="calculator-field">
+                                <div class="calculator-label">
+                                    <span data-i18n="calculator.distanceLabel"></span>
+                                    <strong><span id="distanceValue">300</span> <span
+                                            data-i18n="calculator.distanceUnit"></span></strong>
+                                </div>
+                                <input id="distanceRange" type="range" min="50" max="5000" step="10" value="300"
+                                    class="form-range" />
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="calculator-field">
+                                <div class="calculator-label">
+                                    <span data-i18n="calculator.bordersLabel"></span>
+                                    <strong><span id="bordersValue">0</span></strong>
+                                </div>
+                                <input id="bordersRange" type="range" min="0" max="20" step="1" value="0"
+                                    class="form-range" />
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="calculator-field">
+                                <label class="calculator-label mb-3" for="transportSelect"
+                                    data-i18n="calculator.transportLabel"></label>
+                                <select id="transportSelect" class="form-select">
+                                    <option value="comfort" data-i18n="calculator.transport.comfort"></option>
+                                    <option value="business" data-i18n="calculator.transport.business"></option>
+                                    <option value="minivan" data-i18n="calculator.transport.minivan"></option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="calculator-field">
+                                <label class="calculator-label mb-3" for="currencySelect"
+                                    data-i18n="calculator.currencyLabel"></label>
+                                <select id="currencySelect" class="form-select"></select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="calculator-actions mt-4 d-flex flex-wrap gap-3">
+                        <button id="calculateButton" class="btn btn-primary" type="button"
+                            data-i18n="calculator.calculate"></button>
+                        <a class="btn btn-white-outline" href="#contact" id="calculatorContactButton"
+                            data-i18n="calculator.contact"></a>
+                    </div>
+
+                    <div class="calculator-result mt-4 p-4 rounded-4" id="calculatorResult">
+                        <div class="calculator-result-title mb-2" data-i18n="calculator.resultTitle"></div>
+                        <div class="calculator-result-price" id="resultPrice">0 грн</div>
+                        <div class="calculator-result-note mt-2" data-i18n="calculator.resultNote"></div>
+
+                        <div class="calculator-result-details mt-3">
+                            <div>
+                                <span data-i18n="calculator.details.ratePerKm"></span>:
+                                <strong id="resultRate">0 грн</strong>
+                            </div>
+                            <div>
+                                <span data-i18n="calculator.details.borderFee"></span>:
+                                <strong id="resultBorderFee">0 грн</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
