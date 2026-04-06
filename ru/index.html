@@ -27,32 +27,8 @@
     <link href="../assets/vendors/aos/aos.css" rel="stylesheet" />
     <link href="../assets/css/style.css" rel="stylesheet" />
 
-    <script>
-        (function () {
-            const storedTheme = localStorage.getItem("theme") || "dark";
-            document.documentElement.setAttribute("data-bs-theme", storedTheme);
-        })();
-    </script>
-
-    <style>
-        .lang-switch {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            margin-left: 12px;
-            margin-right: 12px;
-        }
-
-        .lang-switch a {
-            text-decoration: none;
-            font-weight: 600;
-            opacity: 0.75;
-        }
-
-        .lang-switch a.active {
-            opacity: 1;
-        }
-    </style>
+    <script src="../assets/data/ru.js"></script>
+    <script src="../assets/js/i18n.js"></script>
 </head>
 
 <body>
@@ -755,8 +731,6 @@
 
     <button id="back-to-top"><i class="bi bi-arrow-up-short"></i></button>
 
-    <script src="../assets/data/ru.js"></script>
-    <script src="../assets/js/i18n.js"></script>
     <script src="../assets/data/calculator-config.js"></script>
     <script src="../assets/data/popular-destinations.js"></script>
     <script src="../assets/js/calculator.js"></script>
