@@ -37,7 +37,41 @@ Buy Pro
   --nav-inverse: #16181B;
   --nav-inverse-alt: #FFFFFF;
 
-  --et-font-sans: "Manrope", system-ui, -apple-system, "Segoe UI", Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
+  --et-font-sans: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
+}
+
+[data-bs-theme=dark] {
+  --bs-body-bg: #16181D;
+  --bs-white: #20242B;
+  --bs-body-color: #B8C0C8;
+
+  --bs-primary: #D6B16D;
+  --bs-primary-rgb: 214, 177, 109;
+  --bs-primary-hover: #C39B54;
+  --bs-primary-hover-rgb: 195, 155, 84;
+
+  --bs-secondary: #2A2F38;
+  --bs-secondary-rgb: 42, 47, 56;
+
+  --bs-heading-color: #F8F5EF;
+
+  --inverse-color: #F8F5EF;
+  --inverse-color-rgb: 248, 245, 239;
+
+  --bs-link-color: var(--bs-primary);
+
+  --nav-bg: #16181D;
+  --nav-color: #F8F5EF;
+  --nav-hover-color: #D6B16D;
+
+  --dropdown-bg: #20242B;
+  --dropdown-color: #F8F5EF;
+  --dropdown-hover-bg: #2B313A;
+
+  --nav-inverse: #F8F5EF;
+  --nav-inverse-alt: #16181D;
+
+  --et-font-sans: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
 }
 
 body {
@@ -189,7 +223,7 @@ h6 {
 
 .btn.btn-white.hover-outline {
   background-color: var(--bs-white) !important;
-  color: var(--bs-black) !important;
+  color: var(--bs-primary) !important;
   border: 1px solid transparent !important;
 }
 
@@ -341,13 +375,6 @@ h6 {
   font-weight: bold;
 }
 
-.fbs__net-navbar .navbar-brand .logo.dark {
-  display: none;
-}
-
-.fbs__net-navbar .navbar-brand .logo.light {
-  display: block;
-}
 
 .fbs__net-navbar .navbar-nav>li>.nav-link {
   position: relative;
@@ -478,10 +505,11 @@ h6 {
   height: 50px;
   border-radius: 50%;
   position: relative;
-  background-color: var(--bs-black);
-  color: var(--bs-white);
-  border: none;
+  background-color: var(--bs-body-bg);
+  color: var(--bs-heading-color);
+  border: 1px solid var(--bs-secondary);
   display: none;
+  transition: all 0.2s ease;
 }
 
 @media (max-width: 991.98px) {
@@ -682,14 +710,6 @@ h6 {
   color: rgba(var(--inverse-color-rgb), 1) !important;
 }
 
-.fbs__net-navbar.active .navbar-brand .logo.dark {
-  display: block;
-}
-
-.fbs__net-navbar.active .navbar-brand .logo.light {
-  display: none;
-}
-
 .fbs__net-navbar.active .nav-link {
   color: rgba(var(--inverse-color-rgb), 1) !important;
 }
@@ -757,14 +777,6 @@ h6 {
   box-shadow: 0 0px 2px rgba(var(--inverse-color-rgb), 0.15);
 }
 
-.fbs__net-navbar.dark .navbar-brand .logo.dark {
-  display: block;
-}
-
-.fbs__net-navbar.dark .navbar-brand .logo.light {
-  display: none;
-}
-
 .fbs__net-navbar.dark a {
   color: var(--inverse-color) !important;
 }
@@ -783,14 +795,6 @@ h6 {
 
 .fbs__net-navbar.dark ul li a:hover {
   color: var(--inverse-color) !important;
-}
-
-.fbs__net-navbar .offcanvas-header .offcanvas-header-logo .logo-link .logo.dark {
-  display: block;
-}
-
-.fbs__net-navbar .offcanvas-header .offcanvas-header-logo .logo-link .logo.light {
-  display: none;
 }
 
 
@@ -1430,7 +1434,7 @@ h6 {
 }
 
 .logo {
-  width: 120px;
+  width: 140px;
 }
 
 .service-card .icon img {
@@ -1571,9 +1575,9 @@ h6 {
 }
 
 .calculator-modal-content {
-  background: #171A21;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  color: #fff;
+  background: var(--bs-white);
+  border: 1px solid var(--bs-secondary);
+  color: var(--bs-body-color);
   border-radius: 24px;
 }
 
@@ -1590,7 +1594,7 @@ h6 {
 .calculator-modal-content .h5,
 .calculator-modal-content .h6,
 .calculator-modal-content #transferCalculatorModalLabel {
-  color: #fff !important;
+  color: var(--bs-heading-color) !important;
 }
 
 .calculator-modal-content .subtitle {
@@ -1598,14 +1602,14 @@ h6 {
 }
 
 .calculator-modal-content .btn-close {
-  filter: invert(1);
+  filter: none;
 }
 
 .calculator-box,
 .calculator-field,
 .calculator-result {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(var(--bs-secondary-rgb), 0.25);
+  border: 1px solid var(--bs-secondary);
 }
 
 .calculator-field {
@@ -1620,6 +1624,7 @@ h6 {
   justify-content: space-between;
   gap: 12px;
   font-size: 15px;
+  color: var(--bs-body-color);
 }
 
 .calculator-result {
@@ -1628,6 +1633,7 @@ h6 {
 
 .calculator-result-title {
   font-size: 16px;
+  color: var(--bs-body-color);
   opacity: 0.85;
 }
 
@@ -1635,9 +1641,11 @@ h6 {
   font-size: 40px;
   font-weight: 800;
   line-height: 1.1;
+  color: var(--bs-heading-color);
 }
 
 .calculator-result-note {
+  color: var(--bs-body-color);
   opacity: 0.85;
 }
 
@@ -1645,6 +1653,7 @@ h6 {
   display: flex;
   flex-direction: column;
   gap: 6px;
+  color: var(--bs-body-color);
   opacity: 0.9;
 }
 
@@ -1678,49 +1687,78 @@ header.fbs__net-navbar {
   line-height: 1.4;
 }
 
+
+
+.popular-destinations__v1 {
+  background-color: var(--bs-body-bg);
+}
+
 .popular-destinations__v1 .subtitle {
   color: var(--bs-primary);
-  font-size: 0.85rem;
-  letter-spacing: 0.12em;
+}
+
+.popular-destinations__v1 h2 {
+  color: var(--bs-heading-color);
+}
+
+.popular-destinations__v1 p {
+  color: var(--bs-body-color);
 }
 
 .popular-destinations-box {
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  background: rgba(20, 20, 20, 0.35);
-  border-radius: 1.25rem;
+  background: transparent;
+  border: 1px solid var(--bs-secondary);
+  border-radius: 20px;
   overflow: hidden;
 }
 
 .popular-destination-item {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   gap: 24px;
   padding: 22px 28px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid var(--bs-secondary);
+  transition: background-color 0.2s ease;
 }
 
 .popular-destination-item:last-child {
   border-bottom: none;
 }
 
+.popular-destination-item:hover {
+  background-color: rgba(var(--bs-secondary-rgb), 0.35);
+}
+
 .popular-destination-route {
-  font-size: 1.9rem;
-  line-height: 1.2;
-  color: var(--bs-white);
+  font-family: var(--et-font-sans);
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--bs-heading-color);
 }
 
 .popular-destination-prices {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   justify-content: flex-end;
   gap: 10px;
 }
 
 .popular-destination-price {
-  font-size: 1.9rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(var(--bs-primary-rgb), 0.08);
+  color: var(--bs-primary);
+  font-family: var(--et-font-sans);
+  font-size: 1rem;
+  font-weight: 700;
   line-height: 1;
-  color: #d4a63f;
   white-space: nowrap;
 }
 
@@ -1731,12 +1769,81 @@ header.fbs__net-navbar {
     padding: 18px 20px;
   }
 
-  .popular-destination-route,
-  .popular-destination-price {
-    font-size: 1.25rem;
+  .popular-destination-route {
+    font-size: 1rem;
   }
 
   .popular-destination-prices {
     justify-content: flex-start;
   }
+
+  .popular-destination-price {
+    font-size: 0.95rem;
+  }
+}
+
+.popular-destinations__v1 {
+  background-color: rgba(var(--inverse-color-rgb), 0.02);
+}
+
+
+
+.lang-toggle-btn,
+.theme-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--bs-secondary);
+  border-radius: 999px;
+  background: var(--bs-body-bg);
+  color: var(--bs-heading-color);
+  font-family: var(--et-font-sans);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-left: 12px;
+}
+
+.theme-toggle-btn {
+  margin-right: 12px;
+}
+
+
+.lang-toggle-btn:hover,
+.theme-toggle-btn:hover {
+  background: rgba(var(--bs-secondary-rgb), 0.3);
+  border-color: var(--bs-primary);
+  color: var(--bs-primary);
+}
+
+.lang-toggle-btn:focus,
+.theme-toggle-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(var(--bs-primary-rgb), 0.15);
+}
+
+.logo.light,
+.logo.dark {
+  display: none;
+}
+
+[data-bs-theme="light"] .logo.light {
+  display: inline-block;
+}
+
+[data-bs-theme="dark"] .logo.dark {
+  display: inline-block;
+}
+
+.footer-logo {
+  display: inline-block;
+}
+
+.footer-logo .logo {
+  width: 60px;
+  height: auto;
 }

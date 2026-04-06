@@ -1,22 +1,22 @@
 window.SITE_CALCULATOR_CONFIG = {
     rates: {
         comfort: {
-            UAH: 20,
-            MDL: 8.8,
-            EUR: 0.45,
-            USD: 0.49
+            UAH: 35,
+            MDL: 13.7,
+            EUR: 0.88,
+            USD: 0.95
         },
         business: {
-            UAH: 35,
-            MDL: 15.4,
-            EUR: 0.79,
-            USD: 0.86
+            UAH: 40,
+            MDL: 15.6,
+            EUR: 1.00,
+            USD: 1.08
         },
         minivan: {
-            UAH: 28,
-            MDL: 12.3,
-            EUR: 0.63,
-            USD: 0.69
+            UAH: 55,
+            MDL: 21.5,
+            EUR: 1.38,
+            USD: 1.49
         }
     },
 

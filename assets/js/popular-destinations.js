@@ -16,7 +16,7 @@
             return `${price.amount} ${price.currency}`;
         }
 
-        return `${price.amount}${currencyMeta.symbol}`;
+        return `${price.amount}${" "}${currencyMeta.symbol}`;
     }
 
     function renderPopularDestinations() {

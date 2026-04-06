@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="uk" data-bs-theme="light">
 
 <head>
     <meta charset="utf-8" />
@@ -58,18 +58,18 @@
     <div class="site-wrap">
         <header class="fbs__net-navbar navbar navbar-expand-lg dark" aria-label="Site navigation">
             <div class="container d-flex align-items-center justify-content-between">
-                <a class="navbar-brand w-auto" href="../ru/">
-                    <img class="logo dark img-fluid logo" src="../assets/images/logo.png" alt="Logo" />
-                    <img class="logo light img-fluid logo" src="../assets/images/logo.png" alt="Logo" />
+                <a class="navbar-brand w-auto" href="../ua/">
+                    <img class="logo dark img-fluid logo" src="../assets/images/logo-dark.svg" alt="Logo" />
+                    <img class="logo light img-fluid logo" src="../assets/images/logo.svg" alt="Logo" />
                 </a>
 
                 <div class="offcanvas offcanvas-start w-75" id="fbs__net-navbars" tabindex="-1"
                     aria-labelledby="fbs__net-navbarsLabel">
                     <div class="offcanvas-header">
                         <div class="offcanvas-header-logo">
-                            <a class="logo-link" id="fbs__net-navbarsLabel" href="../ru/">
-                                <img class="logo dark img-fluid logo" src="../assets/images/logo.png" alt="Logo" />
-                                <img class="logo light img-fluid logo" src="../assets/images/logo.png" alt="Logo" />
+                            <a class="logo-link" id="fbs__net-navbarsLabel" href="../ua/">
+                                <img class="logo dark img-fluid logo" src="../assets/images/logo-dark.svg" alt="Logo" />
+                                <img class="logo light img-fluid logo" src="../assets/images/logo.svg" alt="Logo" />
                             </a>
                         </div>
                         <button class="btn-close btn-close-black" type="button" data-bs-dismiss="offcanvas"
@@ -102,10 +102,15 @@
                     <div class="header-social d-flex align-items-center gap-1">
                         <a class="btn btn-primary py-2" href="#contact" data-i18n="nav.cta"></a>
 
-                        <div class="lang-switch">
-                            <a href="../ru/">RU</a>
-                            <a href="../ua/" class="active">UA</a>
-                        </div>
+                        <button type="button" class="lang-toggle-btn" data-lang-toggle aria-label="Switch language"
+                            title="Switch language">
+                            RU
+                        </button>
+
+                        <button type="button" class="theme-toggle-btn" data-theme-toggle aria-label="Toggle theme"
+                            title="Dark mode">
+                            🌙
+                        </button>
 
                         <button class="fbs__net-navbar-toggler justify-content-center align-items-center ms-auto"
                             data-bs-toggle="offcanvas" data-bs-target="#fbs__net-navbars"
@@ -663,6 +668,12 @@
 
                         <div class="col-md-5 col-lg-4">
                             <h3 class="mb-3" data-i18n="footer.aboutTitle"></h3>
+                            <div class="footer-logo mb-3">
+                                <img class="logo dark img-fluid" src="../assets/images/logo-footer-dark.svg"
+                                    alt="StepRoyal logo" />
+                                <img class="logo light img-fluid" src="../assets/images/logo-footer.svg"
+                                    alt="StepRoyal logo" />
+                            </div>
                             <p class="mb-4" data-i18n="footer.aboutText"></p>
                         </div>
 
@@ -749,6 +760,8 @@
     <script src="../assets/js/calculator.js"></script>
     <script src="../assets/js/pricing.js"></script>
     <script src="../assets/js/popular-destinations.js"></script>
+    <script src="../assets/js/theme-toggle.js"></script>
+    <script src="../assets/js/lang-toggle.js"></script>
 
     <script src="../assets/vendors/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="../assets/vendors/gsap/gsap.min.js"></script>
