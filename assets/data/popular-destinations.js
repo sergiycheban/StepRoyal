@@ -42,6 +42,42 @@ window.SITE_POPULAR_DESTINATIONS = {
                 { currency: "UAH", amount: 24000 },
                 { currency: "MDL", amount: 9700 }
             ]
+        },
+        {
+            route: {
+                ru: "Одесса - Киев",
+                ua: "Одеса - Київ"
+            },
+            prices: [
+                { currency: "USD", amount: 280 },
+                { currency: "EUR", amount: 245 },
+                { currency: "UAH", amount: 12300 },
+                { currency: "MDL", amount: 4900 }
+            ]
+        },
+        {
+            route: {
+                ru: "Одесса - Днепр",
+                ua: "Одеса - Дніпро"
+            },
+            prices: [
+                { currency: "USD", amount: 300 },
+                { currency: "EUR", amount: 260 },
+                { currency: "UAH", amount: 13200 },
+                { currency: "MDL", amount: 5300 }
+            ]
+        },
+        {
+            route: {
+                ru: "Одесса - Николаев",
+                ua: "Одеса - Миколаїв"
+            },
+            prices: [
+                { currency: "USD", amount: 100 },
+                { currency: "EUR", amount: 85 },
+                { currency: "UAH", amount: 4400 },
+                { currency: "MDL", amount: 1800 }
+            ]
         }
     ]
 };
