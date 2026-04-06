@@ -9,57 +9,38 @@ window.SITE_POPULAR_DESTINATIONS = {
     items: [
         {
             route: {
-                ru: "Одесса - Кишинев",
-                ua: "Одеса - Кишинів"
+                ru: "Кишинев - Одесса",
+                ua: "Кишинів - Одеса"
             },
             prices: [
-                { currency: "USD", amount: 320 },
-                { currency: "EUR", amount: 295 },
-                { currency: "UAH", amount: 13200 }
+                { currency: "USD", amount: 180 },
+                { currency: "EUR", amount: 160 },
+                { currency: "UAH", amount: 7900 },
+                { currency: "MDL", amount: 3200 }
             ]
         },
         {
             route: {
-                ru: "Одесса - Киев",
-                ua: "Одеса - Київ"
+                ru: "Кишинев - Киев",
+                ua: "Кишинів - Київ"
             },
             prices: [
-                { currency: "USD", amount: 320 },
-                { currency: "EUR", amount: 295 },
-                { currency: "UAH", amount: 13200 }
+                { currency: "USD", amount: 500 },
+                { currency: "EUR", amount: 435 },
+                { currency: "UAH", amount: 22000 },
+                { currency: "MDL", amount: 8800 }
             ]
         },
         {
             route: {
-                ru: "Одесса - Днепр",
-                ua: "Одеса - Дніпро"
+                ru: "Кишинев - Днепр",
+                ua: "Кишинів - Дніпро"
             },
             prices: [
-                { currency: "USD", amount: 320 },
-                { currency: "EUR", amount: 295 },
-                { currency: "UAH", amount: 13200 }
-            ]
-        },
-        {
-            route: {
-                ru: "Одесса - Николаев",
-                ua: "Одеса - Миколаїв"
-            },
-            prices: [
-                { currency: "USD", amount: 320 },
-                { currency: "EUR", amount: 295 },
-                { currency: "UAH", amount: 13200 }
-            ]
-        },
-        {
-            route: {
-                ru: "Одесса - Паланка",
-                ua: "Одеса - Паланка"
-            },
-            prices: [
-                { currency: "USD", amount: 320 },
-                { currency: "EUR", amount: 295 },
-                { currency: "UAH", amount: 13200 }
+                { currency: "USD", amount: 550 },
+                { currency: "EUR", amount: 480 },
+                { currency: "UAH", amount: 24000 },
+                { currency: "MDL", amount: 9700 }
             ]
         }
     ]

@@ -21,10 +21,10 @@ window.SITE_CALCULATOR_CONFIG = {
     },
 
     borderFee: {
-        UAH: 500,
-        MDL: 220,
-        EUR: 11,
-        USD: 12
+        USD: 20,
+        UAH: 740,
+        EUR: 18,
+        MDL: 360
     },
 
     currencyMeta: {
