@@ -222,24 +222,24 @@ window.SITE_TRANSLATIONS = {
             socialsTitle: "Мессенджеры и соцсети"
         },
 
-        phone1Label: "+38 (099) 123-45-67",
-        phone1Href: "tel:+380991234567",
+        phone1Label: "+38 (098) 461-81-66",
+        phone1Href: "tel:+380984618166",
 
-        phone2Label: "+38 (098) 765-43-21",
-        phone2Href: "tel:+380987654321",
+        phone2Label: "+373 (60) 666-013",
+        phone2Href: "tel:+37360666013",
 
         emailLabel: "transfer@example.com",
         emailHref: "mailto:transfer@example.com",
 
         socials: {
             telegramLabel: "Telegram",
-            telegramHref: "https://t.me/yourtelegram",
+            telegramHref: "https://t.me/Virus_OI3",
 
             viberLabel: "Viber",
-            viberHref: "viber://chat?number=%2B380991234567",
+            viberHref: "viber://chat?number=%2B380984618166",
 
             whatsappLabel: "WhatsApp",
-            whatsappHref: "https://wa.me/380991234567",
+            whatsappHref: "https://wa.me/380984618166",
 
             instagramLabel: "Instagram",
             instagramHref: "https://instagram.com/yourinstagram",
@@ -257,29 +257,29 @@ window.SITE_TRANSLATIONS = {
         socialsTitle: "Мессенджеры и соцсети",
         infoTitle: "Информация",
 
-        phone1Label: "+38 (099) 123-45-67",
-        phone1Href: "tel:+380991234567",
+        phone1Label: "+38 (098) 461-81-66",
+        phone1Href: "tel:+380984618166",
 
-        phone2Label: "+38 (098) 765-43-21",
-        phone2Href: "tel:+380987654321",
+        phone2Label: "+373 (60) 666-013",
+        phone2Href: "tel:+37360666013",
 
-        phone3Label: "+38 (097) 111-22-33",
-        phone3Href: "tel:+380971112233",
+        phone3Label: "",
+        phone3Href: "",
 
-        phone4Label: "+38 (096) 444-55-66",
-        phone4Href: "tel:+380964445566",
+        phone4Label: "",
+        phone4Href: "",
 
         emailLabel: "transfer@example.com",
         emailHref: "mailto:transfer@example.com",
 
         telegramLabel: "Telegram",
-        telegramHref: "https://t.me/yourtelegram",
+        telegramHref: "https://t.me/Virus_OI3",
 
         viberLabel: "Viber",
-        viberHref: "viber://chat?number=%2B380991234567",
+        viberHref: "viber://chat?number=%2B380984618166",
 
         whatsappLabel: "WhatsApp",
-        whatsappHref: "https://wa.me/380991234567",
+        whatsappHref: "https://wa.me/380984618166",
 
         instagramLabel: "Instagram",
         instagramHref: "https://instagram.com/yourinstagram",
