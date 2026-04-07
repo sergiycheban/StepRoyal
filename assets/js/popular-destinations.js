@@ -1,9 +1,13 @@
 (function () {
     function getCurrentLanguage() {
-        const lang = document.documentElement.lang || "ru";
+        const lang = (document.documentElement.lang || "ru").toLowerCase();
 
-        if (lang.startsWith("uk")) {
+        if (lang.startsWith("uk") || lang.startsWith("ua")) {
             return "ua";
+        }
+
+        if (lang.startsWith("en")) {
+            return "en";
         }
 
         return "ru";
@@ -16,7 +20,7 @@
             return `${price.amount} ${price.currency}`;
         }
 
-        return `${price.amount}${" "}${currencyMeta.symbol}`;
+        return `${price.amount} ${currencyMeta.symbol}`;
     }
 
     function renderPopularDestinations() {

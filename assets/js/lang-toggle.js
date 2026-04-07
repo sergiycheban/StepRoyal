@@ -1,33 +1,44 @@
 (function () {
-    function getCurrentLanguage() {
-        const path = window.location.pathname.toLowerCase();
+    const SUPPORTED_LANGUAGES = ["ru", "ua", "en"];
+    const DEFAULT_LANGUAGE = "ru";
 
-        if (path.includes("/ua/")) {
-            return "ua";
+    function getPathSegments() {
+        return window.location.pathname.split("/").filter(Boolean);
+    }
+
+    function getCurrentLanguage() {
+        const segments = getPathSegments();
+        const firstSegment = (segments[0] || "").toLowerCase();
+
+        if (SUPPORTED_LANGUAGES.includes(firstSegment)) {
+            return firstSegment;
         }
 
-        return "ru";
+        return DEFAULT_LANGUAGE;
     }
 
     function getTargetLanguage(currentLanguage) {
-        return currentLanguage === "ru" ? "ua" : "ru";
+        const currentIndex = SUPPORTED_LANGUAGES.indexOf(currentLanguage);
+
+        if (currentIndex === -1) {
+            return DEFAULT_LANGUAGE;
+        }
+
+        const nextIndex = (currentIndex + 1) % SUPPORTED_LANGUAGES.length;
+        return SUPPORTED_LANGUAGES[nextIndex];
     }
 
     function buildTargetUrl(targetLanguage) {
         const currentUrl = new URL(window.location.href);
-        const currentPath = currentUrl.pathname;
+        const segments = getPathSegments();
 
-        let newPath;
-
-        if (currentPath.includes("/ru/")) {
-            newPath = currentPath.replace("/ru/", `/${targetLanguage}/`);
-        } else if (currentPath.includes("/ua/")) {
-            newPath = currentPath.replace("/ua/", `/${targetLanguage}/`);
+        if (segments.length > 0 && SUPPORTED_LANGUAGES.includes(segments[0].toLowerCase())) {
+            segments[0] = targetLanguage;
         } else {
-            newPath = `/${targetLanguage}/`;
+            segments.unshift(targetLanguage);
         }
 
-        currentUrl.pathname = newPath;
+        currentUrl.pathname = "/" + segments.join("/") + (window.location.pathname.endsWith("/") ? "/" : "");
         return currentUrl.toString();
     }
 
@@ -45,6 +56,10 @@
         const currentLanguage = getCurrentLanguage();
         const targetLanguage = getTargetLanguage(currentLanguage);
         const targetUrl = buildTargetUrl(targetLanguage);
+
+        console.log("Current language:", currentLanguage);
+        console.log("Target language:", targetLanguage);
+        console.log("Redirecting to:", targetUrl);
 
         window.location.href = targetUrl;
     }

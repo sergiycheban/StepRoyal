@@ -242,7 +242,7 @@ window.SITE_TRANSLATIONS = {
             whatsappHref: "https://wa.me/380984618166",
 
             instagramLabel: "Instagram",
-            instagramHref: "https://instagram.com/yourinstagram",
+            instagramHref: "https://www.instagram.com/stefan_mihaylovich",
 
             target: "_blank",
             rel: "noopener noreferrer"
@@ -282,7 +282,7 @@ window.SITE_TRANSLATIONS = {
         whatsappHref: "https://wa.me/380984618166",
 
         instagramLabel: "Instagram",
-        instagramHref: "https://instagram.com/yourinstagram",
+        instagramHref: "https://www.instagram.com/stefan_mihaylovich",
 
         workingHours: "Прийом заявок: щодня",
         availability: "На зв’язку 24/7",

@@ -10,7 +10,8 @@ window.SITE_POPULAR_DESTINATIONS = {
         {
             route: {
                 ru: "Кишинев - Одесса",
-                ua: "Кишинів - Одеса"
+                ua: "Кишинів - Одеса",
+                en: "Chisinau - Odesa"
             },
             prices: [
                 { currency: "USD", amount: 180 },
@@ -22,7 +23,8 @@ window.SITE_POPULAR_DESTINATIONS = {
         {
             route: {
                 ru: "Кишинев - Киев",
-                ua: "Кишинів - Київ"
+                ua: "Кишинів - Київ",
+                en: "Chisinau - Kyiv"
             },
             prices: [
                 { currency: "USD", amount: 500 },
@@ -34,7 +36,8 @@ window.SITE_POPULAR_DESTINATIONS = {
         {
             route: {
                 ru: "Кишинев - Днепр",
-                ua: "Кишинів - Дніпро"
+                ua: "Кишинів - Дніпро",
+                en: "Chisinau - Dnipro"
             },
             prices: [
                 { currency: "USD", amount: 550 },
@@ -46,7 +49,8 @@ window.SITE_POPULAR_DESTINATIONS = {
         {
             route: {
                 ru: "Одесса - Киев",
-                ua: "Одеса - Київ"
+                ua: "Одеса - Київ",
+                en: "Odesa - Kyiv"
             },
             prices: [
                 { currency: "USD", amount: 280 },
@@ -58,7 +62,8 @@ window.SITE_POPULAR_DESTINATIONS = {
         {
             route: {
                 ru: "Одесса - Днепр",
-                ua: "Одеса - Дніпро"
+                ua: "Одеса - Дніпро",
+                en: "Odesa - Dnipro"
             },
             prices: [
                 { currency: "USD", amount: 300 },
@@ -70,7 +75,8 @@ window.SITE_POPULAR_DESTINATIONS = {
         {
             route: {
                 ru: "Одесса - Николаев",
-                ua: "Одеса - Миколаїв"
+                ua: "Одеса - Миколаїв",
+                en: "Odesa - Mykolaiv"
             },
             prices: [
                 { currency: "USD", amount: 100 },

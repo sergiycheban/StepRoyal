@@ -47,4 +47,27 @@
     <loc>https://step-royal.com/ua/odessa-nikolaev/</loc>
   </url>
 
+  <!-- EN -->
+  <url>
+    <loc>https://step-royal.com/en/</loc>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/chisinau-odessa/</loc>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/chisinau-kiev/</loc>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/chisinau-dnepr/</loc>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/odessa-kiev/</loc>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/odessa-dnepr/</loc>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/odessa-nikolaev/</loc>
+  </url>
+
 </urlset>
