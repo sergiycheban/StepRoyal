@@ -12,6 +12,7 @@ window.SITE_TRANSLATIONS = {
         howItWorks: "Як це працює",
         faq: "FAQ",
         contact: "Контакти",
+        fleet: "Автопарк",
         cta: "Замовити"
     },
 
@@ -98,6 +99,24 @@ window.SITE_TRANSLATIONS = {
             suffix: "/ км",
             cta: "Розрахувати вартість"
         },
+    },
+
+    fleet: {
+        badge: "Автопарк",
+        title: "Автомобілі для комфортних поїздок",
+        description: "Підбираємо автомобіль під маршрут, кількість пасажирів і формат поїздки.",
+
+        categories: {
+            comfort: "Комфорт",
+            minivan: "Мінівен / Бус",
+            business: "Бізнес"
+        },
+
+        imageAlt: {
+            comfort: "Автомобіль класу комфорт",
+            minivan: "Мінівен або бус",
+            business: "Автомобіль бізнес-класу"
+        }
     },
 
     calculator: {

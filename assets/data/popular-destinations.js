@@ -14,10 +14,10 @@ window.SITE_POPULAR_DESTINATIONS = {
                 en: "Chisinau - Odesa"
             },
             prices: [
-                { currency: "USD", amount: 180 },
-                { currency: "EUR", amount: 160 },
-                { currency: "UAH", amount: 7900 },
-                { currency: "MDL", amount: 3200 }
+                { currency: "USD", amount: 160 },
+                { currency: "EUR", amount: 140 },
+                { currency: "UAH", amount: 7000 },
+                { currency: "MDL", amount: 2800 }
             ]
         },
         {
@@ -27,10 +27,10 @@ window.SITE_POPULAR_DESTINATIONS = {
                 en: "Chisinau - Kyiv"
             },
             prices: [
-                { currency: "USD", amount: 500 },
-                { currency: "EUR", amount: 435 },
-                { currency: "UAH", amount: 22000 },
-                { currency: "MDL", amount: 8800 }
+                { currency: "USD", amount: 440 },
+                { currency: "EUR", amount: 385 },
+                { currency: "UAH", amount: 19400 },
+                { currency: "MDL", amount: 7750 }
             ]
         },
         {
@@ -40,10 +40,10 @@ window.SITE_POPULAR_DESTINATIONS = {
                 en: "Chisinau - Dnipro"
             },
             prices: [
-                { currency: "USD", amount: 550 },
-                { currency: "EUR", amount: 480 },
-                { currency: "UAH", amount: 24000 },
-                { currency: "MDL", amount: 9700 }
+                { currency: "USD", amount: 490 },
+                { currency: "EUR", amount: 430 },
+                { currency: "UAH", amount: 21600 },
+                { currency: "MDL", amount: 8650 }
             ]
         },
         {
@@ -53,10 +53,10 @@ window.SITE_POPULAR_DESTINATIONS = {
                 en: "Odesa - Kyiv"
             },
             prices: [
-                { currency: "USD", amount: 280 },
-                { currency: "EUR", amount: 245 },
-                { currency: "UAH", amount: 12300 },
-                { currency: "MDL", amount: 4900 }
+                { currency: "USD", amount: 290 },
+                { currency: "EUR", amount: 255 },
+                { currency: "UAH", amount: 12800 },
+                { currency: "MDL", amount: 5100 }
             ]
         },
         {
@@ -66,10 +66,10 @@ window.SITE_POPULAR_DESTINATIONS = {
                 en: "Odesa - Dnipro"
             },
             prices: [
-                { currency: "USD", amount: 300 },
-                { currency: "EUR", amount: 260 },
-                { currency: "UAH", amount: 13200 },
-                { currency: "MDL", amount: 5300 }
+                { currency: "USD", amount: 290 },
+                { currency: "EUR", amount: 255 },
+                { currency: "UAH", amount: 12800 },
+                { currency: "MDL", amount: 5100 }
             ]
         },
         {

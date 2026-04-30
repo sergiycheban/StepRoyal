@@ -12,6 +12,7 @@ window.SITE_TRANSLATIONS = {
         howItWorks: "How It Works",
         faq: "FAQ",
         contact: "Contact",
+        fleet: "Fleet",
         cta: "Book Now"
     },
 
@@ -98,6 +99,24 @@ window.SITE_TRANSLATIONS = {
             suffix: "/ km",
             cta: "Calculate Price"
         },
+    },
+
+    fleet: {
+        badge: "Fleet",
+        title: "Vehicles for comfortable trips",
+        description: "We select the right vehicle based on your route, number of passengers and trip format.",
+
+        categories: {
+            comfort: "Comfort",
+            minivan: "Minivan / Bus",
+            business: "Business"
+        },
+
+        imageAlt: {
+            comfort: "Comfort class car",
+            minivan: "Minivan or bus",
+            business: "Business class car"
+        }
     },
 
     calculator: {
