@@ -539,3 +539,38 @@ const countdownInit = () => {
 
 document.addEventListener('DOMContentLoaded', countdownInit);
 
+
+
+// Keep page content aligned below the fixed contact bar and navigation.
+const syncHeaderStackOffset = () => {
+  const topbar = document.querySelector('.site-topbar');
+  const navbar = document.querySelector('.fbs__net-navbar');
+  if (!navbar) return;
+
+  const topbarHeight = topbar ? topbar.offsetHeight : 0;
+  const navbarHeight = navbar.offsetHeight;
+  document.documentElement.style.setProperty(
+    '--site-header-stack-height',
+    `${Math.ceil(topbarHeight + navbarHeight)}px`
+  );
+};
+
+let headerResizeFrame = null;
+const scheduleHeaderStackSync = () => {
+  if (headerResizeFrame) cancelAnimationFrame(headerResizeFrame);
+  headerResizeFrame = requestAnimationFrame(syncHeaderStackOffset);
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+  syncHeaderStackOffset();
+
+  if ('ResizeObserver' in window) {
+    const headerObserver = new ResizeObserver(scheduleHeaderStackSync);
+    const topbar = document.querySelector('.site-topbar');
+    const navbar = document.querySelector('.fbs__net-navbar');
+    if (topbar) headerObserver.observe(topbar);
+    if (navbar) headerObserver.observe(navbar);
+  }
+});
+window.addEventListener('load', syncHeaderStackOffset);
+window.addEventListener('resize', scheduleHeaderStackSync);

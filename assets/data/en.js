@@ -261,7 +261,10 @@ window.SITE_TRANSLATIONS = {
             whatsappHref: "https://wa.me/380984618166",
 
             instagramLabel: "Instagram",
-            instagramHref: "https://www.instagram.com/stefan_mihaylovich",
+            instagramHref: "https://www.instagram.com/steproyal_transfer",
+
+            tiktokLabel: "TikTok",
+            tiktokHref: "https://www.tiktok.com/@stefan_stif",
 
             target: "_blank",
             rel: "noopener noreferrer"
@@ -301,7 +304,10 @@ window.SITE_TRANSLATIONS = {
         whatsappHref: "https://wa.me/380984618166",
 
         instagramLabel: "Instagram",
-        instagramHref: "https://www.instagram.com/stefan_mihaylovich",
+        instagramHref: "https://www.instagram.com/steproyal_transfer",
+
+        tiktokLabel: "TikTok",
+        tiktokHref: "https://www.tiktok.com/@stefan_stif",
 
         workingHours: "Request acceptance: daily",
         availability: "Available 24/7",
