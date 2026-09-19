@@ -213,7 +213,7 @@ window.SITE_TRANSLATIONS = {
         items: {
             0: {
                 question: "How can I find out the trip cost?",
-                answer: "You can calculate the exact cost in our calculator. The price is fixed in advance and does not change during the trip."
+                answer: "The calculator shows an estimated cost. The final price is confirmed before booking after the route and trip details are clarified."
             },
             1: {
                 question: "How does payment work?",
