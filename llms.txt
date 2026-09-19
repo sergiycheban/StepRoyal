@@ -1,0 +1,44 @@
+# StepRoyal
+
+StepRoyal provides private intercity and international passenger transfers across Ukraine, Moldova and Romania.
+
+## Languages
+- Russian: https://step-royal.com/ru/
+- Ukrainian: https://step-royal.com/ua/
+- English: https://step-royal.com/en/
+
+## Route collections
+- Transfers from Chisinau: https://step-royal.com/en/transfers-from-chisinau/
+- Transfers from Odesa: https://step-royal.com/en/transfers-from-odessa/
+- Moldova - Ukraine Transfers: https://step-royal.com/en/moldova-ukraine-transfers/
+- Airport Transfers: Chisinau, Iasi and Bucharest: https://step-royal.com/en/airport-transfers/
+
+## Route pages
+- Chisinau - Odesa: https://step-royal.com/en/chisinau-odessa/
+- Chisinau - Kyiv: https://step-royal.com/en/chisinau-kiev/
+- Chisinau - Dnipro: https://step-royal.com/en/chisinau-dnepr/
+- Odesa - Kyiv: https://step-royal.com/en/odessa-kiev/
+- Odesa - Dnipro: https://step-royal.com/en/odessa-dnepr/
+- Odesa - Mykolaiv: https://step-royal.com/en/odessa-nikolaev/
+- Chisinau - Vinnytsia: https://step-royal.com/en/chisinau-vinnytsia/
+- Chisinau - Lviv: https://step-royal.com/en/chisinau-lviv/
+- Chisinau - Mykolaiv: https://step-royal.com/en/chisinau-mykolaiv/
+- Chisinau - Izmail: https://step-royal.com/en/chisinau-izmail/
+- Chisinau - Tiraspol: https://step-royal.com/en/chisinau-tiraspol/
+- Chisinau - Iasi: https://step-royal.com/en/chisinau-iasi/
+- Chisinau - Bucharest: https://step-royal.com/en/chisinau-bucharest/
+- Chisinau - Constanta: https://step-royal.com/en/chisinau-constanta/
+- Chisinau - Chernivtsi: https://step-royal.com/en/chisinau-chernivtsi/
+- Chisinau - Uman: https://step-royal.com/en/chisinau-uman/
+- Chisinau - Balti: https://step-royal.com/en/chisinau-balti/
+- Odesa - Vinnytsia: https://step-royal.com/en/odessa-vinnytsia/
+- Odesa - Lviv: https://step-royal.com/en/odessa-lviv/
+- Odesa - Izmail: https://step-royal.com/en/odessa-izmail/
+- Odesa - Tiraspol: https://step-royal.com/en/odessa-tiraspol/
+- Odesa - Iasi: https://step-royal.com/en/odessa-iasi/
+- Odesa - Bucharest: https://step-royal.com/en/odessa-bucharest/
+- Odesa - Constanta: https://step-royal.com/en/odessa-constanta/
+- Odesa - Chernivtsi: https://step-royal.com/en/odessa-chernivtsi/
+- Odesa - Uman: https://step-royal.com/en/odessa-uman/
+
+Route distances and planning times are approximate. Final price, pickup details and international border timing are confirmed for each booking.

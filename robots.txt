@@ -1,4 +1,10 @@
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
 User-agent: *
 Allow: /
 
-Sitemap: https://step-royal.com//sitemap.xml
+Sitemap: https://step-royal.com/sitemap.xml

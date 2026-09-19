@@ -1,7 +1,7 @@
 window.SITE_TRANSLATIONS = {
     seo: {
-        title: "Intercity and International Transfer | Comfortable Trips Across Ukraine and Europe",
-        description: "Comfortable transfer service across Ukraine and Europe. Intercity rides, airport transfers, private and business trips."
+        title: "Private Transfers in Ukraine, Moldova & Europe | StepRoyal",
+        description: "Private intercity and international transfers across Ukraine, Moldova and Europe. Comfortable vehicles, agreed pricing and 24/7 contact."
     },
 
     nav: {
@@ -247,8 +247,8 @@ window.SITE_TRANSLATIONS = {
         phone2Label: "+373 (60) 666-013",
         phone2Href: "tel:+37360666013",
 
-        emailLabel: "transfer@example.com",
-        emailHref: "mailto:transfer@example.com",
+        emailLabel: "stepan198686@gmail.com",
+        emailHref: "mailto:stepan198686@gmail.com",
 
         socials: {
             telegramLabel: "Telegram",
@@ -288,8 +288,8 @@ window.SITE_TRANSLATIONS = {
         phone4Label: "",
         phone4Href: "",
 
-        emailLabel: "transfer@example.com",
-        emailHref: "mailto:transfer@example.com",
+        emailLabel: "stepan198686@gmail.com",
+        emailHref: "mailto:stepan198686@gmail.com",
 
         telegramLabel: "Telegram",
         telegramHref: "https://t.me/Virus_OI3",

@@ -8,6 +8,7 @@ window.SITE_POPULAR_DESTINATIONS = {
 
     items: [
         {
+            slug: "chisinau-odessa",
             route: {
                 ru: "Кишинев - Одесса",
                 ua: "Кишинів - Одеса",
@@ -21,6 +22,7 @@ window.SITE_POPULAR_DESTINATIONS = {
             ]
         },
         {
+            slug: "chisinau-kiev",
             route: {
                 ru: "Кишинев - Киев",
                 ua: "Кишинів - Київ",
@@ -34,6 +36,7 @@ window.SITE_POPULAR_DESTINATIONS = {
             ]
         },
         {
+            slug: "chisinau-dnepr",
             route: {
                 ru: "Кишинев - Днепр",
                 ua: "Кишинів - Дніпро",
@@ -47,6 +50,7 @@ window.SITE_POPULAR_DESTINATIONS = {
             ]
         },
         {
+            slug: "odessa-kiev",
             route: {
                 ru: "Одесса - Киев",
                 ua: "Одеса - Київ",
@@ -60,6 +64,7 @@ window.SITE_POPULAR_DESTINATIONS = {
             ]
         },
         {
+            slug: "odessa-dnepr",
             route: {
                 ru: "Одесса - Днепр",
                 ua: "Одеса - Дніпро",
@@ -73,6 +78,7 @@ window.SITE_POPULAR_DESTINATIONS = {
             ]
         },
         {
+            slug: "odessa-nikolaev",
             route: {
                 ru: "Одесса - Николаев",
                 ua: "Одеса - Миколаїв",

@@ -3,11 +3,18 @@
 (function () {
     let calculatorInitialized = false;
 
+    function getLocale() {
+        const lang = (document.documentElement.lang || "ru").toLowerCase();
+        if (lang.startsWith("uk")) return "uk-UA";
+        if (lang.startsWith("en")) return "en-US";
+        return "ru-RU";
+    }
+
     function formatPrice(value, currencyCode, currencyMeta, options = {}) {
         const symbol = currencyMeta[currencyCode]?.symbol || currencyCode;
         const { maximumFractionDigits = 2, minimumFractionDigits = 0 } = options;
 
-        const formattedValue = Number(value).toLocaleString("ru-RU", {
+        const formattedValue = Number(value).toLocaleString(getLocale(), {
             minimumFractionDigits,
             maximumFractionDigits,
         });
@@ -28,7 +35,10 @@
         Object.entries(config.currencyMeta).forEach(([code, meta]) => {
             const option = document.createElement("option");
             option.value = code;
-            option.textContent = meta.label;
+            const pageLang = (document.documentElement.lang || "ru").toLowerCase();
+            option.textContent = pageLang.startsWith("en") && (code === "UAH" || code === "MDL")
+                ? code
+                : meta.label;
             currencySelect.appendChild(option);
         });
     }

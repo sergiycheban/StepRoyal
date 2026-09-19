@@ -13,11 +13,19 @@
         return "ru";
     }
 
-    function formatPrice(price, currencies) {
+    function formatPrice(price, currencies, lang) {
         const currencyMeta = currencies[price.currency];
 
         if (!currencyMeta) {
             return `${price.amount} ${price.currency}`;
+        }
+
+        if (lang === "en" && (price.currency === "UAH" || price.currency === "MDL")) {
+            return `${price.amount} ${price.currency}`;
+        }
+
+        if (price.currency === "EUR" || price.currency === "USD") {
+            return `${currencyMeta.symbol}${price.amount}`;
         }
 
         return `${price.amount} ${currencyMeta.symbol}`;
@@ -38,12 +46,12 @@
             const prices = Array.isArray(item.prices) ? item.prices : [];
 
             const pricesHtml = prices.map((price) => {
-                return `<span class="popular-destination-price">${formatPrice(price, currencies)}</span>`;
+                return `<span class="popular-destination-price">${formatPrice(price, currencies, lang)}</span>`;
             }).join("");
 
             return `
                 <div class="popular-destination-item">
-                    <div class="popular-destination-route">${route}</div>
+                    <div class="popular-destination-route"><a href="/${lang}/${item.slug}/">${route}</a></div>
                     <div class="popular-destination-prices">${pricesHtml}</div>
                 </div>
             `;

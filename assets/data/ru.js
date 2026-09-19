@@ -1,7 +1,7 @@
 window.SITE_TRANSLATIONS = {
     seo: {
-        title: "Междугородний и международный трансфер | Комфортные поездки по Украине и Европе",
-        description: "Комфортный трансфер по Украине и Европе. Междугородние поездки, трансфер в аэропорт и из аэропорта, индивидуальные и бизнес поездки."
+        title: "Трансферы по Украине, Молдове и Европе | StepRoyal",
+        description: "Индивидуальные междугородние и международные трансферы по Украине, Молдове и Европе. Комфортные авто, согласование цены и поддержка 24/7."
     },
 
     nav: {
@@ -29,7 +29,7 @@ window.SITE_TRANSLATIONS = {
     about: {
         badge: "О нас",
 
-        title: "Надежный трансфер по Украине и Европе",
+        title: "Надежный трансфер по Украине, Молдове и Европе",
 
         text1: "Мы организуем комфортные поездки между городами без лишних ожиданий и неприятных сюрпризов. Работаем с проверенными водителями и собственным автопарком, чтобы каждая поездка проходила спокойно и предсказуемо.",
 
@@ -213,7 +213,7 @@ window.SITE_TRANSLATIONS = {
         items: {
             0: {
                 question: "Как узнать стоимость поездки?",
-                answer: "Вы можете рассчитать точную стоимость в нашем калькуляторе. Цена фиксируется заранее и не меняется в процессе поездки."
+                answer: "Калькулятор показывает ориентировочную стоимость. Финальная цена подтверждается до бронирования после уточнения маршрута и условий поездки."
             },
             1: {
                 question: "Как происходит оплата?",
@@ -247,8 +247,8 @@ window.SITE_TRANSLATIONS = {
         phone2Label: "+373 (60) 666-013",
         phone2Href: "tel:+37360666013",
 
-        emailLabel: "transfer@example.com",
-        emailHref: "mailto:transfer@example.com",
+        emailLabel: "stepan198686@gmail.com",
+        emailHref: "mailto:stepan198686@gmail.com",
 
         socials: {
             telegramLabel: "Telegram",
@@ -288,8 +288,8 @@ window.SITE_TRANSLATIONS = {
         phone4Label: "",
         phone4Href: "",
 
-        emailLabel: "transfer@example.com",
-        emailHref: "mailto:transfer@example.com",
+        emailLabel: "stepan198686@gmail.com",
+        emailHref: "mailto:stepan198686@gmail.com",
 
         telegramLabel: "Telegram",
         telegramHref: "https://t.me/Virus_OI3",

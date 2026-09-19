@@ -1,73 +1,747 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- RU -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://step-royal.com/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/" />
+    <lastmod>2026-09-19</lastmod>
   </url>
   <url>
     <loc>https://step-royal.com/ru/chisinau-odessa/</loc>
-  </url>
-  <url>
-    <loc>https://step-royal.com/ru/chisinau-kiev/</loc>
-  </url>
-  <url>
-    <loc>https://step-royal.com/ru/chisinau-dnepr/</loc>
-  </url>
-  <url>
-    <loc>https://step-royal.com/ru/odessa-kiev/</loc>
-  </url>
-  <url>
-    <loc>https://step-royal.com/ru/odessa-dnepr/</loc>
-  </url>
-  <url>
-    <loc>https://step-royal.com/ru/odessa-nikolaev/</loc>
-  </url>
-
-  <!-- UA -->
-  <url>
-    <loc>https://step-royal.com/ua/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-odessa/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-odessa/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-odessa/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-odessa/" />
+    <lastmod>2026-09-19</lastmod>
   </url>
   <url>
     <loc>https://step-royal.com/ua/chisinau-odessa/</loc>
-  </url>
-  <url>
-    <loc>https://step-royal.com/ua/chisinau-kiev/</loc>
-  </url>
-  <url>
-    <loc>https://step-royal.com/ua/chisinau-dnepr/</loc>
-  </url>
-  <url>
-    <loc>https://step-royal.com/ua/odessa-kiev/</loc>
-  </url>
-  <url>
-    <loc>https://step-royal.com/ua/odessa-dnepr/</loc>
-  </url>
-  <url>
-    <loc>https://step-royal.com/ua/odessa-nikolaev/</loc>
-  </url>
-
-  <!-- EN -->
-  <url>
-    <loc>https://step-royal.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-odessa/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-odessa/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-odessa/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-odessa/" />
+    <lastmod>2026-09-19</lastmod>
   </url>
   <url>
     <loc>https://step-royal.com/en/chisinau-odessa/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-odessa/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-odessa/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-odessa/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-odessa/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ru/chisinau-kiev/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-kiev/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-kiev/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-kiev/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-kiev/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/chisinau-kiev/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-kiev/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-kiev/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-kiev/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-kiev/" />
+    <lastmod>2026-09-19</lastmod>
   </url>
   <url>
     <loc>https://step-royal.com/en/chisinau-kiev/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-kiev/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-kiev/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-kiev/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-kiev/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ru/chisinau-dnepr/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-dnepr/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-dnepr/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-dnepr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-dnepr/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/chisinau-dnepr/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-dnepr/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-dnepr/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-dnepr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-dnepr/" />
+    <lastmod>2026-09-19</lastmod>
   </url>
   <url>
     <loc>https://step-royal.com/en/chisinau-dnepr/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-dnepr/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-dnepr/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-dnepr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-dnepr/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ru/odessa-kiev/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-kiev/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-kiev/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-kiev/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-kiev/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/odessa-kiev/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-kiev/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-kiev/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-kiev/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-kiev/" />
+    <lastmod>2026-09-19</lastmod>
   </url>
   <url>
     <loc>https://step-royal.com/en/odessa-kiev/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-kiev/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-kiev/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-kiev/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-kiev/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ru/odessa-dnepr/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-dnepr/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-dnepr/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-dnepr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-dnepr/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/odessa-dnepr/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-dnepr/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-dnepr/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-dnepr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-dnepr/" />
+    <lastmod>2026-09-19</lastmod>
   </url>
   <url>
     <loc>https://step-royal.com/en/odessa-dnepr/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-dnepr/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-dnepr/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-dnepr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-dnepr/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ru/odessa-nikolaev/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-nikolaev/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-nikolaev/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-nikolaev/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-nikolaev/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/odessa-nikolaev/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-nikolaev/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-nikolaev/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-nikolaev/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-nikolaev/" />
+    <lastmod>2026-09-19</lastmod>
   </url>
   <url>
     <loc>https://step-royal.com/en/odessa-nikolaev/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-nikolaev/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-nikolaev/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-nikolaev/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-nikolaev/" />
+    <lastmod>2026-09-19</lastmod>
   </url>
-
+  <url>
+    <loc>https://step-royal.com/ru/chisinau-vinnytsia/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-vinnytsia/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-vinnytsia/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-vinnytsia/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-vinnytsia/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/chisinau-vinnytsia/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-vinnytsia/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-vinnytsia/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-vinnytsia/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-vinnytsia/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/chisinau-vinnytsia/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-vinnytsia/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-vinnytsia/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-vinnytsia/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-vinnytsia/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ru/chisinau-lviv/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-lviv/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-lviv/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-lviv/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-lviv/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/chisinau-lviv/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-lviv/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-lviv/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-lviv/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-lviv/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/chisinau-lviv/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-lviv/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-lviv/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-lviv/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-lviv/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ru/chisinau-mykolaiv/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-mykolaiv/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-mykolaiv/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-mykolaiv/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-mykolaiv/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/chisinau-mykolaiv/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-mykolaiv/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-mykolaiv/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-mykolaiv/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-mykolaiv/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/chisinau-mykolaiv/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-mykolaiv/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-mykolaiv/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-mykolaiv/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-mykolaiv/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ru/chisinau-izmail/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-izmail/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-izmail/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-izmail/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-izmail/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/chisinau-izmail/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-izmail/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-izmail/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-izmail/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-izmail/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/chisinau-izmail/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-izmail/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-izmail/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-izmail/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-izmail/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ru/chisinau-tiraspol/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-tiraspol/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-tiraspol/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-tiraspol/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-tiraspol/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/chisinau-tiraspol/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-tiraspol/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-tiraspol/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-tiraspol/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-tiraspol/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/chisinau-tiraspol/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-tiraspol/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-tiraspol/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-tiraspol/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-tiraspol/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ru/chisinau-iasi/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-iasi/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-iasi/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-iasi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-iasi/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/chisinau-iasi/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-iasi/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-iasi/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-iasi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-iasi/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/chisinau-iasi/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-iasi/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-iasi/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-iasi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-iasi/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ru/chisinau-bucharest/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-bucharest/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-bucharest/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-bucharest/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-bucharest/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/chisinau-bucharest/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-bucharest/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-bucharest/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-bucharest/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-bucharest/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/chisinau-bucharest/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-bucharest/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-bucharest/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-bucharest/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-bucharest/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ru/chisinau-constanta/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-constanta/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-constanta/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-constanta/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-constanta/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/chisinau-constanta/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-constanta/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-constanta/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-constanta/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-constanta/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/chisinau-constanta/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-constanta/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-constanta/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-constanta/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-constanta/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ru/chisinau-chernivtsi/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-chernivtsi/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-chernivtsi/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-chernivtsi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-chernivtsi/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/chisinau-chernivtsi/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-chernivtsi/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-chernivtsi/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-chernivtsi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-chernivtsi/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/chisinau-chernivtsi/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-chernivtsi/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-chernivtsi/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-chernivtsi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-chernivtsi/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ru/chisinau-uman/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-uman/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-uman/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-uman/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-uman/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/chisinau-uman/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-uman/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-uman/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-uman/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-uman/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/chisinau-uman/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-uman/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-uman/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-uman/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-uman/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ru/chisinau-balti/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-balti/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-balti/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-balti/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-balti/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/chisinau-balti/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-balti/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-balti/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-balti/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-balti/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/chisinau-balti/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/chisinau-balti/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/chisinau-balti/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/chisinau-balti/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/chisinau-balti/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ru/odessa-vinnytsia/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-vinnytsia/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-vinnytsia/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-vinnytsia/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-vinnytsia/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/odessa-vinnytsia/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-vinnytsia/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-vinnytsia/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-vinnytsia/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-vinnytsia/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/odessa-vinnytsia/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-vinnytsia/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-vinnytsia/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-vinnytsia/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-vinnytsia/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ru/odessa-lviv/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-lviv/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-lviv/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-lviv/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-lviv/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/odessa-lviv/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-lviv/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-lviv/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-lviv/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-lviv/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/odessa-lviv/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-lviv/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-lviv/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-lviv/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-lviv/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ru/odessa-izmail/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-izmail/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-izmail/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-izmail/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-izmail/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/odessa-izmail/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-izmail/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-izmail/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-izmail/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-izmail/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/odessa-izmail/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-izmail/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-izmail/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-izmail/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-izmail/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ru/odessa-tiraspol/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-tiraspol/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-tiraspol/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-tiraspol/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-tiraspol/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/odessa-tiraspol/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-tiraspol/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-tiraspol/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-tiraspol/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-tiraspol/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/odessa-tiraspol/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-tiraspol/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-tiraspol/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-tiraspol/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-tiraspol/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ru/odessa-iasi/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-iasi/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-iasi/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-iasi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-iasi/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/odessa-iasi/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-iasi/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-iasi/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-iasi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-iasi/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/odessa-iasi/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-iasi/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-iasi/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-iasi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-iasi/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ru/odessa-bucharest/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-bucharest/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-bucharest/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-bucharest/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-bucharest/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/odessa-bucharest/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-bucharest/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-bucharest/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-bucharest/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-bucharest/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/odessa-bucharest/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-bucharest/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-bucharest/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-bucharest/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-bucharest/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ru/odessa-constanta/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-constanta/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-constanta/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-constanta/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-constanta/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/odessa-constanta/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-constanta/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-constanta/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-constanta/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-constanta/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/odessa-constanta/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-constanta/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-constanta/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-constanta/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-constanta/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ru/odessa-chernivtsi/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-chernivtsi/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-chernivtsi/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-chernivtsi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-chernivtsi/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/odessa-chernivtsi/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-chernivtsi/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-chernivtsi/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-chernivtsi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-chernivtsi/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/odessa-chernivtsi/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-chernivtsi/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-chernivtsi/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-chernivtsi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-chernivtsi/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ru/odessa-uman/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-uman/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-uman/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-uman/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-uman/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/odessa-uman/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-uman/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-uman/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-uman/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-uman/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/odessa-uman/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/odessa-uman/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/odessa-uman/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/odessa-uman/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/odessa-uman/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ru/transfers-from-chisinau/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/transfers-from-chisinau/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/transfers-from-chisinau/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/transfers-from-chisinau/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/transfers-from-chisinau/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/transfers-from-chisinau/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/transfers-from-chisinau/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/transfers-from-chisinau/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/transfers-from-chisinau/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/transfers-from-chisinau/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/transfers-from-chisinau/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/transfers-from-chisinau/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/transfers-from-chisinau/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/transfers-from-chisinau/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/transfers-from-chisinau/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ru/transfers-from-odessa/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/transfers-from-odessa/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/transfers-from-odessa/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/transfers-from-odessa/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/transfers-from-odessa/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/transfers-from-odessa/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/transfers-from-odessa/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/transfers-from-odessa/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/transfers-from-odessa/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/transfers-from-odessa/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/transfers-from-odessa/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/transfers-from-odessa/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/transfers-from-odessa/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/transfers-from-odessa/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/transfers-from-odessa/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ru/moldova-ukraine-transfers/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/moldova-ukraine-transfers/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/moldova-ukraine-transfers/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/moldova-ukraine-transfers/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/moldova-ukraine-transfers/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/moldova-ukraine-transfers/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/moldova-ukraine-transfers/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/moldova-ukraine-transfers/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/moldova-ukraine-transfers/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/moldova-ukraine-transfers/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/moldova-ukraine-transfers/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/moldova-ukraine-transfers/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/moldova-ukraine-transfers/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/moldova-ukraine-transfers/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/moldova-ukraine-transfers/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ru/airport-transfers/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/airport-transfers/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/airport-transfers/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/airport-transfers/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/airport-transfers/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/ua/airport-transfers/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/airport-transfers/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/airport-transfers/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/airport-transfers/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/airport-transfers/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
+  <url>
+    <loc>https://step-royal.com/en/airport-transfers/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://step-royal.com/ru/airport-transfers/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://step-royal.com/ua/airport-transfers/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://step-royal.com/en/airport-transfers/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://step-royal.com/ru/airport-transfers/" />
+    <lastmod>2026-09-19</lastmod>
+  </url>
 </urlset>

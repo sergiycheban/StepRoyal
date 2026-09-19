@@ -1,0 +1,65 @@
+{
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/ru/",
+      "permanent": true
+    },
+    {
+      "source": "/ru/chisinau-dnipro",
+      "destination": "/ru/chisinau-dnepr/",
+      "permanent": true
+    },
+    {
+      "source": "/en/chisinau-dnipro",
+      "destination": "/en/chisinau-dnepr/",
+      "permanent": true
+    },
+    {
+      "source": "/ua/kyshyniv-dnipro",
+      "destination": "/ua/chisinau-dnepr/",
+      "permanent": true
+    },
+    {
+      "source": "/ua/kyshyniv-odesa",
+      "destination": "/ua/chisinau-odessa/",
+      "permanent": true
+    },
+    {
+      "source": "/ua/kyshyniv-kyiv",
+      "destination": "/ua/chisinau-kiev/",
+      "permanent": true
+    },
+    {
+      "source": "/ua/odesa-kyiv",
+      "destination": "/ua/odessa-kiev/",
+      "permanent": true
+    },
+    {
+      "source": "/ua/odesa-dnipro",
+      "destination": "/ua/odessa-dnepr/",
+      "permanent": true
+    },
+    {
+      "source": "/ua/odesa-mykolaiv",
+      "destination": "/ua/odessa-nikolaev/",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    }
+  ]
+}

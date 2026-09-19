@@ -1,0 +1,707 @@
+{
+  "updated": "2026-09-19",
+  "routes": [
+    {
+      "slug": "chisinau-odessa",
+      "origin": "chisinau",
+      "destination": "odessa",
+      "distanceKm": 197,
+      "planningTime": {
+        "ru": "4-6 ч",
+        "ua": "4-6 год",
+        "en": "4-6 h"
+      },
+      "publishedComfortPriceEUR": 140,
+      "names": {
+        "ru": {
+          "origin": "Кишинев",
+          "destination": "Одесса"
+        },
+        "ua": {
+          "origin": "Кишинів",
+          "destination": "Одеса"
+        },
+        "en": {
+          "origin": "Chisinau",
+          "destination": "Odesa"
+        }
+      },
+      "routeType": "md_ua"
+    },
+    {
+      "slug": "chisinau-kiev",
+      "origin": "chisinau",
+      "destination": "kiev",
+      "distanceKm": 576,
+      "planningTime": {
+        "ru": "8-11 ч",
+        "ua": "8-11 год",
+        "en": "8-11 h"
+      },
+      "publishedComfortPriceEUR": 385,
+      "names": {
+        "ru": {
+          "origin": "Кишинев",
+          "destination": "Киев"
+        },
+        "ua": {
+          "origin": "Кишинів",
+          "destination": "Київ"
+        },
+        "en": {
+          "origin": "Chisinau",
+          "destination": "Kyiv"
+        }
+      },
+      "routeType": "md_ua"
+    },
+    {
+      "slug": "chisinau-dnepr",
+      "origin": "chisinau",
+      "destination": "dnepr",
+      "distanceKm": 640,
+      "planningTime": {
+        "ru": "10-12 ч",
+        "ua": "10-12 год",
+        "en": "10-12 h"
+      },
+      "publishedComfortPriceEUR": 430,
+      "names": {
+        "ru": {
+          "origin": "Кишинев",
+          "destination": "Днепр"
+        },
+        "ua": {
+          "origin": "Кишинів",
+          "destination": "Дніпро"
+        },
+        "en": {
+          "origin": "Chisinau",
+          "destination": "Dnipro"
+        }
+      },
+      "routeType": "md_ua"
+    },
+    {
+      "slug": "odessa-kiev",
+      "origin": "odessa",
+      "destination": "kiev",
+      "distanceKm": 474,
+      "planningTime": {
+        "ru": "5.5-7 ч",
+        "ua": "5.5-7 год",
+        "en": "5.5-7 h"
+      },
+      "publishedComfortPriceEUR": 255,
+      "names": {
+        "ru": {
+          "origin": "Одесса",
+          "destination": "Киев"
+        },
+        "ua": {
+          "origin": "Одеса",
+          "destination": "Київ"
+        },
+        "en": {
+          "origin": "Odesa",
+          "destination": "Kyiv"
+        }
+      },
+      "routeType": "domestic_ua"
+    },
+    {
+      "slug": "odessa-dnepr",
+      "origin": "odessa",
+      "destination": "dnepr",
+      "distanceKm": 453,
+      "planningTime": {
+        "ru": "6.5-8 ч",
+        "ua": "6.5-8 год",
+        "en": "6.5-8 h"
+      },
+      "publishedComfortPriceEUR": 255,
+      "names": {
+        "ru": {
+          "origin": "Одесса",
+          "destination": "Днепр"
+        },
+        "ua": {
+          "origin": "Одеса",
+          "destination": "Дніпро"
+        },
+        "en": {
+          "origin": "Odesa",
+          "destination": "Dnipro"
+        }
+      },
+      "routeType": "domestic_ua"
+    },
+    {
+      "slug": "odessa-nikolaev",
+      "origin": "odessa",
+      "destination": "nikolaev",
+      "distanceKm": 133,
+      "planningTime": {
+        "ru": "2-3 ч",
+        "ua": "2-3 год",
+        "en": "2-3 h"
+      },
+      "publishedComfortPriceEUR": 85,
+      "names": {
+        "ru": {
+          "origin": "Одесса",
+          "destination": "Николаев"
+        },
+        "ua": {
+          "origin": "Одеса",
+          "destination": "Миколаїв"
+        },
+        "en": {
+          "origin": "Odesa",
+          "destination": "Mykolaiv"
+        }
+      },
+      "routeType": "domestic_ua"
+    },
+    {
+      "slug": "chisinau-vinnytsia",
+      "origin": "chisinau",
+      "destination": "vinnytsia",
+      "distanceKm": 299,
+      "planningTime": {
+        "ru": "6-8 ч",
+        "ua": "6-8 год",
+        "en": "6-8 h"
+      },
+      "publishedComfortPriceEUR": null,
+      "names": {
+        "ru": {
+          "origin": "Кишинев",
+          "destination": "Винница"
+        },
+        "ua": {
+          "origin": "Кишинів",
+          "destination": "Вінниця"
+        },
+        "en": {
+          "origin": "Chisinau",
+          "destination": "Vinnytsia"
+        }
+      },
+      "routeType": "md_ua"
+    },
+    {
+      "slug": "chisinau-lviv",
+      "origin": "chisinau",
+      "destination": "lviv",
+      "distanceKm": 580,
+      "planningTime": {
+        "ru": "10-12 ч",
+        "ua": "10-12 год",
+        "en": "10-12 h"
+      },
+      "publishedComfortPriceEUR": null,
+      "names": {
+        "ru": {
+          "origin": "Кишинев",
+          "destination": "Львов"
+        },
+        "ua": {
+          "origin": "Кишинів",
+          "destination": "Львів"
+        },
+        "en": {
+          "origin": "Chisinau",
+          "destination": "Lviv"
+        }
+      },
+      "routeType": "md_ua"
+    },
+    {
+      "slug": "chisinau-mykolaiv",
+      "origin": "chisinau",
+      "destination": "nikolaev",
+      "distanceKm": 321,
+      "planningTime": {
+        "ru": "6-8 ч",
+        "ua": "6-8 год",
+        "en": "6-8 h"
+      },
+      "publishedComfortPriceEUR": null,
+      "names": {
+        "ru": {
+          "origin": "Кишинев",
+          "destination": "Николаев"
+        },
+        "ua": {
+          "origin": "Кишинів",
+          "destination": "Миколаїв"
+        },
+        "en": {
+          "origin": "Chisinau",
+          "destination": "Mykolaiv"
+        }
+      },
+      "routeType": "md_ua"
+    },
+    {
+      "slug": "chisinau-izmail",
+      "origin": "chisinau",
+      "destination": "izmail",
+      "distanceKm": 215,
+      "planningTime": {
+        "ru": "4-6 ч",
+        "ua": "4-6 год",
+        "en": "4-6 h"
+      },
+      "publishedComfortPriceEUR": null,
+      "names": {
+        "ru": {
+          "origin": "Кишинев",
+          "destination": "Измаил"
+        },
+        "ua": {
+          "origin": "Кишинів",
+          "destination": "Ізмаїл"
+        },
+        "en": {
+          "origin": "Chisinau",
+          "destination": "Izmail"
+        }
+      },
+      "routeType": "md_ua"
+    },
+    {
+      "slug": "chisinau-tiraspol",
+      "origin": "chisinau",
+      "destination": "tiraspol",
+      "distanceKm": 73,
+      "planningTime": {
+        "ru": "1.5-2.5 ч",
+        "ua": "1.5-2.5 год",
+        "en": "1.5-2.5 h"
+      },
+      "publishedComfortPriceEUR": null,
+      "names": {
+        "ru": {
+          "origin": "Кишинев",
+          "destination": "Тирасполь"
+        },
+        "ua": {
+          "origin": "Кишинів",
+          "destination": "Тирасполь"
+        },
+        "en": {
+          "origin": "Chisinau",
+          "destination": "Tiraspol"
+        }
+      },
+      "routeType": "domestic_md"
+    },
+    {
+      "slug": "chisinau-iasi",
+      "origin": "chisinau",
+      "destination": "iasi",
+      "distanceKm": 141,
+      "planningTime": {
+        "ru": "3-5 ч",
+        "ua": "3-5 год",
+        "en": "3-5 h"
+      },
+      "publishedComfortPriceEUR": null,
+      "names": {
+        "ru": {
+          "origin": "Кишинев",
+          "destination": "Яссы"
+        },
+        "ua": {
+          "origin": "Кишинів",
+          "destination": "Ясси"
+        },
+        "en": {
+          "origin": "Chisinau",
+          "destination": "Iasi"
+        }
+      },
+      "routeType": "md_ro"
+    },
+    {
+      "slug": "chisinau-bucharest",
+      "origin": "chisinau",
+      "destination": "bucharest",
+      "distanceKm": 439,
+      "planningTime": {
+        "ru": "7-9 ч",
+        "ua": "7-9 год",
+        "en": "7-9 h"
+      },
+      "publishedComfortPriceEUR": null,
+      "names": {
+        "ru": {
+          "origin": "Кишинев",
+          "destination": "Бухарест"
+        },
+        "ua": {
+          "origin": "Кишинів",
+          "destination": "Бухарест"
+        },
+        "en": {
+          "origin": "Chisinau",
+          "destination": "Bucharest"
+        }
+      },
+      "routeType": "md_ro"
+    },
+    {
+      "slug": "chisinau-constanta",
+      "origin": "chisinau",
+      "destination": "constanta",
+      "distanceKm": 409,
+      "planningTime": {
+        "ru": "7-9 ч",
+        "ua": "7-9 год",
+        "en": "7-9 h"
+      },
+      "publishedComfortPriceEUR": null,
+      "names": {
+        "ru": {
+          "origin": "Кишинев",
+          "destination": "Констанца"
+        },
+        "ua": {
+          "origin": "Кишинів",
+          "destination": "Констанца"
+        },
+        "en": {
+          "origin": "Chisinau",
+          "destination": "Constanta"
+        }
+      },
+      "routeType": "md_ro"
+    },
+    {
+      "slug": "chisinau-chernivtsi",
+      "origin": "chisinau",
+      "destination": "chernivtsi",
+      "distanceKm": 340,
+      "planningTime": {
+        "ru": "6-8 ч",
+        "ua": "6-8 год",
+        "en": "6-8 h"
+      },
+      "publishedComfortPriceEUR": null,
+      "names": {
+        "ru": {
+          "origin": "Кишинев",
+          "destination": "Черновцы"
+        },
+        "ua": {
+          "origin": "Кишинів",
+          "destination": "Чернівці"
+        },
+        "en": {
+          "origin": "Chisinau",
+          "destination": "Chernivtsi"
+        }
+      },
+      "routeType": "md_ua"
+    },
+    {
+      "slug": "chisinau-uman",
+      "origin": "chisinau",
+      "destination": "uman",
+      "distanceKm": 431,
+      "planningTime": {
+        "ru": "7-9 ч",
+        "ua": "7-9 год",
+        "en": "7-9 h"
+      },
+      "publishedComfortPriceEUR": null,
+      "names": {
+        "ru": {
+          "origin": "Кишинев",
+          "destination": "Умань"
+        },
+        "ua": {
+          "origin": "Кишинів",
+          "destination": "Умань"
+        },
+        "en": {
+          "origin": "Chisinau",
+          "destination": "Uman"
+        }
+      },
+      "routeType": "md_ua"
+    },
+    {
+      "slug": "chisinau-balti",
+      "origin": "chisinau",
+      "destination": "balti",
+      "distanceKm": 135,
+      "planningTime": {
+        "ru": "2-2.5 ч",
+        "ua": "2-2.5 год",
+        "en": "2-2.5 h"
+      },
+      "publishedComfortPriceEUR": null,
+      "names": {
+        "ru": {
+          "origin": "Кишинев",
+          "destination": "Бельцы"
+        },
+        "ua": {
+          "origin": "Кишинів",
+          "destination": "Бєльці"
+        },
+        "en": {
+          "origin": "Chisinau",
+          "destination": "Balti"
+        }
+      },
+      "routeType": "domestic_md"
+    },
+    {
+      "slug": "odessa-vinnytsia",
+      "origin": "odessa",
+      "destination": "vinnytsia",
+      "distanceKm": 426,
+      "planningTime": {
+        "ru": "5.5-7 ч",
+        "ua": "5.5-7 год",
+        "en": "5.5-7 h"
+      },
+      "publishedComfortPriceEUR": null,
+      "names": {
+        "ru": {
+          "origin": "Одесса",
+          "destination": "Винница"
+        },
+        "ua": {
+          "origin": "Одеса",
+          "destination": "Вінниця"
+        },
+        "en": {
+          "origin": "Odesa",
+          "destination": "Vinnytsia"
+        }
+      },
+      "routeType": "domestic_ua"
+    },
+    {
+      "slug": "odessa-lviv",
+      "origin": "odessa",
+      "destination": "lviv",
+      "distanceKm": 793,
+      "planningTime": {
+        "ru": "11-13 ч",
+        "ua": "11-13 год",
+        "en": "11-13 h"
+      },
+      "publishedComfortPriceEUR": null,
+      "names": {
+        "ru": {
+          "origin": "Одесса",
+          "destination": "Львов"
+        },
+        "ua": {
+          "origin": "Одеса",
+          "destination": "Львів"
+        },
+        "en": {
+          "origin": "Odesa",
+          "destination": "Lviv"
+        }
+      },
+      "routeType": "domestic_ua"
+    },
+    {
+      "slug": "odessa-izmail",
+      "origin": "odessa",
+      "destination": "izmail",
+      "distanceKm": 237,
+      "planningTime": {
+        "ru": "3.5-5 ч",
+        "ua": "3.5-5 год",
+        "en": "3.5-5 h"
+      },
+      "publishedComfortPriceEUR": null,
+      "names": {
+        "ru": {
+          "origin": "Одесса",
+          "destination": "Измаил"
+        },
+        "ua": {
+          "origin": "Одеса",
+          "destination": "Ізмаїл"
+        },
+        "en": {
+          "origin": "Odesa",
+          "destination": "Izmail"
+        }
+      },
+      "routeType": "domestic_ua"
+    },
+    {
+      "slug": "odessa-tiraspol",
+      "origin": "odessa",
+      "destination": "tiraspol",
+      "distanceKm": 132,
+      "planningTime": {
+        "ru": "3-5 ч",
+        "ua": "3-5 год",
+        "en": "3-5 h"
+      },
+      "publishedComfortPriceEUR": null,
+      "names": {
+        "ru": {
+          "origin": "Одесса",
+          "destination": "Тирасполь"
+        },
+        "ua": {
+          "origin": "Одеса",
+          "destination": "Тирасполь"
+        },
+        "en": {
+          "origin": "Odesa",
+          "destination": "Tiraspol"
+        }
+      },
+      "routeType": "md_ua"
+    },
+    {
+      "slug": "odessa-iasi",
+      "origin": "odessa",
+      "destination": "iasi",
+      "distanceKm": 320,
+      "planningTime": {
+        "ru": "7-9 ч",
+        "ua": "7-9 год",
+        "en": "7-9 h"
+      },
+      "publishedComfortPriceEUR": null,
+      "names": {
+        "ru": {
+          "origin": "Одесса",
+          "destination": "Яссы"
+        },
+        "ua": {
+          "origin": "Одеса",
+          "destination": "Ясси"
+        },
+        "en": {
+          "origin": "Odesa",
+          "destination": "Iasi"
+        }
+      },
+      "routeType": "ua_ro"
+    },
+    {
+      "slug": "odessa-bucharest",
+      "origin": "odessa",
+      "destination": "bucharest",
+      "distanceKm": 515,
+      "planningTime": {
+        "ru": "9-12 ч",
+        "ua": "9-12 год",
+        "en": "9-12 h"
+      },
+      "publishedComfortPriceEUR": null,
+      "names": {
+        "ru": {
+          "origin": "Одесса",
+          "destination": "Бухарест"
+        },
+        "ua": {
+          "origin": "Одеса",
+          "destination": "Бухарест"
+        },
+        "en": {
+          "origin": "Odesa",
+          "destination": "Bucharest"
+        }
+      },
+      "routeType": "ua_ro"
+    },
+    {
+      "slug": "odessa-constanta",
+      "origin": "odessa",
+      "destination": "constanta",
+      "distanceKm": 486,
+      "planningTime": {
+        "ru": "8-11 ч",
+        "ua": "8-11 год",
+        "en": "8-11 h"
+      },
+      "publishedComfortPriceEUR": null,
+      "names": {
+        "ru": {
+          "origin": "Одесса",
+          "destination": "Констанца"
+        },
+        "ua": {
+          "origin": "Одеса",
+          "destination": "Констанца"
+        },
+        "en": {
+          "origin": "Odesa",
+          "destination": "Constanta"
+        }
+      },
+      "routeType": "ua_ro"
+    },
+    {
+      "slug": "odessa-chernivtsi",
+      "origin": "odessa",
+      "destination": "chernivtsi",
+      "distanceKm": 518,
+      "planningTime": {
+        "ru": "8-10 ч",
+        "ua": "8-10 год",
+        "en": "8-10 h"
+      },
+      "publishedComfortPriceEUR": null,
+      "names": {
+        "ru": {
+          "origin": "Одесса",
+          "destination": "Черновцы"
+        },
+        "ua": {
+          "origin": "Одеса",
+          "destination": "Чернівці"
+        },
+        "en": {
+          "origin": "Odesa",
+          "destination": "Chernivtsi"
+        }
+      },
+      "routeType": "domestic_ua"
+    },
+    {
+      "slug": "odessa-uman",
+      "origin": "odessa",
+      "destination": "uman",
+      "distanceKm": 271,
+      "planningTime": {
+        "ru": "3-4.5 ч",
+        "ua": "3-4.5 год",
+        "en": "3-4.5 h"
+      },
+      "publishedComfortPriceEUR": null,
+      "names": {
+        "ru": {
+          "origin": "Одесса",
+          "destination": "Умань"
+        },
+        "ua": {
+          "origin": "Одеса",
+          "destination": "Умань"
+        },
+        "en": {
+          "origin": "Odesa",
+          "destination": "Uman"
+        }
+      },
+      "routeType": "domestic_ua"
+    }
+  ]
+}

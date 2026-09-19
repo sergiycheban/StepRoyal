@@ -1,53 +1,22 @@
 (function () {
-    function formatRate(value, currencyCode, currencyMeta) {
-        const symbol = currencyMeta[currencyCode]?.symbol || currencyCode;
-
-        const formattedValue = Number(value).toLocaleString("ru-RU", {
-            minimumFractionDigits: value < 1 ? 2 : 0,
-            maximumFractionDigits: value < 1 ? 2 : 2,
-        });
-
-        if (currencyCode === "EUR" || currencyCode === "USD") {
-            return `from ${symbol}${formattedValue} / km`;
-        }
-
-        return `от ${formattedValue} ${symbol} / км`;
-    }
-
     function getLocalizedSuffix(currencyCode) {
-        const lang = document.documentElement.lang || "ru";
+        const lang = (document.documentElement.lang || "ru").toLowerCase();
 
         const suffixMap = {
-            ru: {
-                EUR: "/ км",
-                USD: "/ км",
-                UAH: "/ км",
-                MDL: "/ км",
-                default: "/ км",
-                from: "от",
-            },
-            uk: {
-                EUR: "/ км",
-                USD: "/ км",
-                UAH: "/ км",
-                MDL: "/ км",
-                default: "/ км",
-                from: "від",
-            },
+            ru: { suffix: "/ км", from: "от", locale: "ru-RU" },
+            uk: { suffix: "/ км", from: "від", locale: "uk-UA" },
+            en: { suffix: "/ km", from: "from", locale: "en-US" },
         };
 
-        const locale = lang.startsWith("uk") ? "uk" : "ru";
-        return {
-            suffix: suffixMap[locale][currencyCode] || suffixMap[locale].default,
-            from: suffixMap[locale].from,
-        };
+        const localeKey = lang.startsWith("uk") ? "uk" : (lang.startsWith("en") ? "en" : "ru");
+        return suffixMap[localeKey];
     }
 
     function formatRateLocalized(value, currencyCode, currencyMeta) {
         const symbol = currencyMeta[currencyCode]?.symbol || currencyCode;
-        const { suffix, from } = getLocalizedSuffix(currencyCode);
+        const { suffix, from, locale } = getLocalizedSuffix(currencyCode);
 
-        const formattedValue = Number(value).toLocaleString("ru-RU", {
+        const formattedValue = Number(value).toLocaleString(locale, {
             minimumFractionDigits: value < 1 ? 2 : 0,
             maximumFractionDigits: value < 1 ? 2 : 2,
         });
