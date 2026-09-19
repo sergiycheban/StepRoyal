@@ -10,7 +10,7 @@ window.SITE_TRANSLATIONS = {
         pricing: "Цены",
         calculator: "Калькулятор",
         howItWorks: "Как это работает",
-        faq: "FAQ",
+        faq: "Частые вопросы",
         contact: "Контакты",
         fleet: "Автопарк",
         cta: "Заказать"
@@ -204,7 +204,7 @@ window.SITE_TRANSLATIONS = {
     },
 
     faq: {
-        badge: "FAQ",
+        badge: "Частые вопросы",
 
         title: "Часто задаваемые вопросы",
 

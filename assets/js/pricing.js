@@ -13,7 +13,10 @@
     }
 
     function formatRateLocalized(value, currencyCode, currencyMeta) {
-        const symbol = currencyMeta[currencyCode]?.symbol || currencyCode;
+        const pageLang = (document.documentElement.lang || "ru").toLowerCase();
+        const symbol = pageLang.startsWith("en") && (currencyCode === "UAH" || currencyCode === "MDL")
+            ? currencyCode
+            : (currencyMeta[currencyCode]?.symbol || currencyCode);
         const { suffix, from, locale } = getLocalizedSuffix(currencyCode);
 
         const formattedValue = Number(value).toLocaleString(locale, {

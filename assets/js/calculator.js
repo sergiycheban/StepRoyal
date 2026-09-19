@@ -11,7 +11,10 @@
     }
 
     function formatPrice(value, currencyCode, currencyMeta, options = {}) {
-        const symbol = currencyMeta[currencyCode]?.symbol || currencyCode;
+        const pageLang = (document.documentElement.lang || "ru").toLowerCase();
+        const symbol = pageLang.startsWith("en") && (currencyCode === "UAH" || currencyCode === "MDL")
+            ? currencyCode
+            : (currencyMeta[currencyCode]?.symbol || currencyCode);
         const { maximumFractionDigits = 2, minimumFractionDigits = 0 } = options;
 
         const formattedValue = Number(value).toLocaleString(getLocale(), {
